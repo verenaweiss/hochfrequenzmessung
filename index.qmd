@@ -3,7 +3,7 @@ title: "Unser Projekt"
 about:
   id: me
   template: broadside
-  image: img/B0021257.jpg
+  image: img/B0021257.png
 ---
 
 :::{#me}
@@ -14,9 +14,9 @@ about:
 
 ## Daten
 
-##Auswertung der Daten
+## Auswertung der Daten
 
-##Schlussfolgerung
+## Schlussfolgerung
 
 :::
 
