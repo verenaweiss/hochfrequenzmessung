@@ -3,7 +3,7 @@ title: "Unser Projekt"
 about:
   id: me
   template: broadside
-  image: (C:/Users/veren/OneDrive/Dokumente/Holztechnikum/Diplomarbeit/B0021257.jpg)
+  image: img/B0021257.jpg
 ---
 
 :::{#me}
