@@ -1,0 +1,51 @@
+body {
+  background-color: #ffffff; /* Hintergrundfarbe */
+}
+
+.navbar {
+  background-color: #D8F004 !important; /* Navbar-Hintergrundfarbe */
+}
+
+
+
+#me {
+    background-color: #f9f9f9; /* Heller Hintergrund */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd; /* Dünne Umrandung */
+    font-family: Arial, sans-serif; /* Alternative Schriftart */
+}
+
+#me h2 {
+    color: #D8F004; /* Überschrift in kräftiger Farbe */
+}
+
+.navbar {
+    background-color: #343a40; /* Dunkler Hintergrund für die Navbar */
+}
+
+.navbar a {
+    font-weight: bold; /* Schrift fett machen */
+    color: #4F4F4F; /* Textfarbe */
+}
+
+.navbar a:hover {
+    color: #ffffff; /* Farbe beim Überfahren mit der Maus */
+}
+
+#me img {
+    display: block; /* Bild blockweise platzieren */
+    margin: 50px auto 20px; /* Abstand oben (50px) und unten (20px), Bild zentrieren */
+    max-width: 100%; /* Optional: Verhindert, dass das Bild zu groß wird */
+}
+
+#me p {
+    text-align: center; /* Text unter dem Bild zentrieren */
+}
+
+.logo {
+    position: absolute;
+    top: 10px; /* Abstand vom oberen Rand */
+    right: 10px; /* Abstand vom rechten Rand */
+    max-width: 100px; /* Größe des Logos (falls nötig) */
+}

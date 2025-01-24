@@ -3,7 +3,7 @@ project:
   output-dir: docs
   
 website:
-  title: "HOCHFREQUENTE ELEKTROMAGNETISCHE STRAHLUNG IM MASSIVHOLZBAU"
+  title: "Hochfrequente Strahlung im Massivholzbau"
   navbar:
     left:
       - href: index.qmd
@@ -11,7 +11,7 @@ website:
       - projects.qmd
     tools:
       - icon: instagram
-        href: https://instagram.com/
+        href: https://www.instagram.com/thoma_holz100/
       - icon: github
         href: https://github.com/verenaweiss/website
   page-footer:
