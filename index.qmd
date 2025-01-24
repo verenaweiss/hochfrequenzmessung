@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "Unser Projekt"
 about:
   id: me
   template: broadside
@@ -8,11 +8,15 @@ about:
 
 :::{#me}
 
-## Goals
+## Ziel der Untersuchungen
 
-## Education
+## Messungen
 
-## Experience
+## Daten
+
+##Auswertung der Daten
+
+##Schlussfolgerung
 
 :::
 
