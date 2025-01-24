@@ -3,20 +3,20 @@ project:
   output-dir: docs
   
 website:
-  title: "MY WEB SITE"
+  title: "HOCHFREQUENTE ELEKTROMAGNETISCHE STRAHLUNG IM MASSIVHOLZBAU"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - projects.qmd
     tools:
-      - icon: twitter
-        href: https://twitter.com/
+      - icon: instagram
+        href: https://instagram.com/
       - icon: github
-        href: https://github.com/YOURUSERNAME/YOURREPO
+        href: https://github.com/verenaweiss/website
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)"
-    left: "&copy; Copyright 2023, YOUR NAME"
+    left: "&copy; Copyright 2023, Verena Weiß"
 
 format:
   html:
