@@ -6,31 +6,28 @@ format:
 about: 
   id: me
   template: broadside
-  image: img/logo.png
+  image: img/B0021257.png
 ---
 
-
-:::{#me}
-
-## Inhalt
-
-### - Messungen
-
-### - Daten
-
-### - Auswertung der Daten
-
-### - Schlussfolgerung
-
-:::
+<img src="img/logo.png" alt="Logo" class="logo" />
 
 <div id="me">
-  <img src="img/B0021257.png" alt="Diplomarbeit" />
   <p>
-    Herzlich Willkommen zur Website unseres Diplomarbeitsprojektes **"Messungen zur Abschirmung von hochfrequenter elektromagnetischer Strahlung im Massivholzbau"**.
+    Herzlich Willkommen zur Website unseres Diplomarbeitsprojektes  
+    **"Messungen zur Abschirmung von hochfrequenter elektromagnetischer Strahlung im Massivholzbau"**.
     <br>
     Wir sind **Verena Weiß (links)** und **Anna Kronaus (rechts)**.  
     Im Rahmen unseres Abschlusses am Holztechnikum Kuchl haben wir gemeinsam mit der Thoma Holz GmbH Messungen zur Abschirmung von hochfrequenter elektromagnetischer Strahlung an drei Holz100-Wandaufbauten durchgeführt.
   </p>
 </div>
+
+<br>
+
+## Inhalt
+
+Auf dieser Website finden sie Informationen über unsere Diplomarbeit - von den Messungen bis zu den Ergebnissen und Schlussfolgerungen. 
+
+## Daten zum Downloaden
+
+
 

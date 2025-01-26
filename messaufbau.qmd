@@ -1,0 +1,161 @@
+---
+title: "Messaufbau"
+format:
+  html:
+    css: messaufbau.css
+---
+
+## Versuchsaufbau
+
+Die Messungen durften wir in Linz bei der Firma KEBA durchführen. Dort gibt es eine Teilabsorberhalle, die sich für Messungen mit hochfrequenter Strahlung von **1 - 6 GHz** eignet. Es wurde ein **unmoduliertes Sinussignal** verwendet, da dieses gut reproduzierbar und daher ideal für Vergleichsmessungen ist.
+
+### Beschreibung des Aufbaus
+Das Signal wurde von einem **Signalgenerator** erzeugt. In der **Teilabsorberhalle** wurde eine **Horn-Antenne** platziert, die ein elektromagnetisches Feld in Richtung der in 2,3 m entfernten **Feldsonde** aussendet. Wichtig war, dass sich die Feldsonde in einem möglichst homogenen Feld befand, daher wurden Reflexionen von Wänden und Boden durch Ferritkacheln und Pyramidenabsorber absorbiert (Bild 1 in **blau**).
+
+<div class="image-row">
+  <figure class="image-container">
+    <a href="#img1">
+      <img src="img/prüfaufbau.png" alt="Bild 1">
+    </a>
+    <figcaption>Bild 1: Versuchsaufbau in der Teilabsorberhalle</figcaption>
+  </figure>
+  <figure class="image-container">
+    <a href="#img2">
+      <img src="img/horn-antenne.png" alt="Bild 2">
+    </a>
+    <figcaption>Bild 2: Hornantenne</figcaption>
+  </figure>
+  <figure class="image-container">
+    <a href="#img3">
+      <img src="img/feldsonde.png" alt="Bild 3">
+    </a>
+    <figcaption>Bild 3: Feldsonde</figcaption>
+  </figure>
+</div>
+
+<!-- Popups für vergrößerte Bilder -->
+<div class="lightbox" id="img1">
+  <img src="img/prüfaufbau.png" alt="Bild 1">
+  <a href="#" class="close">×</a>
+</div>
+<div class="lightbox" id="img2">
+  <img src="img/horn-antenne.png" alt="Bild 2">
+  <a href="#" class="close">×</a>
+</div>
+<div class="lightbox" id="img3">
+  <img src="img/feldsonde.png" alt="Bild 3">
+  <a href="#" class="close">×</a>
+</div>
+
+
+## Aufbau der Prüfkörper 
+
+Es wurden drei verschiedene Holz100 Wandtypen mit und ohne Dämmung geprüft. Um zwischen den Messungen die Wandaufbauten möglichst schnell wechseln zu können, hatten wir mehrere 2 cm dicke Dämmmatten und ein Fassadenelement, welche mittels Spanngurt auf die Wandwürfel befestigt werden konnten.  
+
+<div class="image-row">
+  <figure class="image-container">
+    <a href="#img4">
+      <img src="img/grundkonstruktion.png" alt="Bild 1">
+    </a>
+    <figcaption>Grundkonstruktion</figcaption>
+  </figure>
+  <figure class="image-container">
+    <a href="#img5">
+      <img src="img/dämmung.png" alt="Bild 2">
+    </a>
+    <figcaption>Holzfaserdämmung</figcaption>
+  </figure>
+  <figure class="image-container">
+    <a href="#img6">
+      <img src="img/fassade.png" alt="Bild 3">
+    </a>
+    <figcaption>Fassade</figcaption>
+  </figure>
+</div>
+
+<!-- Popups für vergrößerte Bilder -->
+<div class="lightbox" id="img4">
+  <img src="img/grundkonstruktion.png" alt="Bild 1">
+  <a href="#" class="close">×</a>
+</div>
+<div class="lightbox" id="img5">
+  <img src="img/dämmung.png" alt="Bild 2">
+  <a href="#" class="close">×</a>
+</div>
+<div class="lightbox" id="img6">
+  <img src="img/fassade.png" alt="Bild 3">
+  <a href="#" class="close">×</a>
+</div>
+
+Die Prüflinge wurden direkt vor dem Empfänger (Feldsonde) auf einem **Styroportisch** aufgestellt. 
+
+<div class="image-with-caption">
+  <figure>
+    <img src="img/holzmitsonde.jpg" alt="Beschreibung des Bildes">
+    <figcaption>Seitenansicht des Prüfkörpers direkt vor der Feldsonde.</figcaption>
+  </figure>
+</div>
+
+
+### 17 cm Holz100 Wand
+
+<div class="image-text-container">
+  <img src="img/Besser1.png" alt="Beschreibung" class="left-image">
+  <div class="right-text">
+  **Daten:** 
+  <br>
+   - mit und ohne 12 cm dicker Dämmung
+   <br>
+   - Fassade aus Fichte/Tanne 
+   <br>
+   - 6 cm Kernlage 
+   <br>
+   - 5 Schichten 
+  </div>
+</div>
+
+### 25 cm Holz100 Wand
+
+<div class="image-text-container">
+  <img src="img/Besser2.png" alt="Beschreibung" class="left-image">
+  <div class="right-text">
+  **Daten:** 
+  <br>
+   - mit und ohne 8 cm dicker Dämmung
+   <br>
+   - Fassade aus Fichte/Tanne 
+   <br>
+   - 8 cm Kernlage 
+   <br>
+   - 7 Schichten 
+    <br>
+   - Holz 100-Thermo 
+    <br>
+   - höhere Dämmeigenschaften 
+  </div>
+</div>
+
+### 30.6 cm Holz100 Wand
+
+<div class="image-text-container">
+  <img src="img/Besser3.png" alt="Beschreibung" class="left-image">
+  <div class="right-text">
+  **Daten:** 
+  <br>
+   - mit und ohne 6 cm dicker Dämmung
+   <br>
+   - Fassade aus Fichte/Tanne 
+   <br>
+   - 8 cm Kernlage 
+   <br>
+   - 9 Schichten 
+    <br>
+   - auch ohne Dämmung möglich
+  </div>
+</div>
+
+
+
+
+
+

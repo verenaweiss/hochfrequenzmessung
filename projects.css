@@ -1,0 +1,22 @@
+body {
+  background-color: #ffffff; /* Hintergrundfarbe */
+}
+
+.navbar {
+  background-color: #4F4F4F !important; /* Navbar-Hintergrundfarbe */
+}
+
+
+.navbar a {
+    font-weight: bold; /* Schrift fett machen */
+    color: #ffffff; /* Textfarbe */
+}
+
+.navbar a:hover {
+    color: #D8F004; /* Farbe beim Überfahren mit der Maus */
+    font-weight: bold;
+}
+
+
+
+

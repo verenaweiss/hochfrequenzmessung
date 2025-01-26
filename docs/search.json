@@ -2,15 +2,50 @@
   {
     "objectID": "projects.html#project-2",
     "href": "projects.html#project-2",
-    "title": "Projects",
+    "title": "Ziel des Projektes",
     "section": "Project 2",
     "text": "Project 2"
   },
   {
     "objectID": "projects.html#project-3",
     "href": "projects.html#project-3",
-    "title": "Projects",
+    "title": "Ziel des Projektes",
     "section": "Project 3",
     "text": "Project 3"
+  },
+  {
+    "objectID": "index.html#inhalt",
+    "href": "index.html#inhalt",
+    "title": "Unser Projekt",
+    "section": "Inhalt",
+    "text": "Inhalt\nAuf dieser Website finden sie Informationen über unsere Diplomarbeit - von den Messungen bis zu den Ergebnissen und Schlussfolgerungen."
+  },
+  {
+    "objectID": "index.html#daten-zum-downloaden",
+    "href": "index.html#daten-zum-downloaden",
+    "title": "Unser Projekt",
+    "section": "Daten zum Downloaden",
+    "text": "Daten zum Downloaden"
+  },
+  {
+    "objectID": "messaufbau.html",
+    "href": "messaufbau.html",
+    "title": "Messaufbau",
+    "section": "",
+    "text": "Die Messungen durften wir in Linz bei der Firma KEBA durchführen. Dort gibt es eine Teilabsorberhalle, die sich für Messungen mit hochfrequenter Strahlung von 1 - 6 GHz eignet. Es wurde ein unmoduliertes Sinussignal verwendet, da dieses gut reproduzierbar und daher ideal für Vergleichsmessungen ist.\n\n\nDas Signal wurde von einem Signalgenerator erzeugt. In der Teilabsorberhalle wurde eine Horn-Antenne platziert, die ein elektromagnetisches Feld in Richtung der in 2,3 m entfernten Feldsonde aussendet. Wichtig war, dass sich die Feldsonde in einem möglichst homogenen Feld befand, daher wurden Reflexionen von Wänden und Boden durch Ferritkacheln und Pyramidenabsorber absorbiert (Bild 1 in blau).\n\n\n  \n\nBild 1: Versuchsaufbau in der Teilabsorberhalle\n\n\n\n  \n\nBild 2: Hornantenne\n\n\n\n  \n\nBild 3: Feldsonde\n\n\n\n\n\n ×\n\n\n ×\n\n\n ×"
+  },
+  {
+    "objectID": "messaufbau.html#versuchsaufbau",
+    "href": "messaufbau.html#versuchsaufbau",
+    "title": "Messaufbau",
+    "section": "",
+    "text": "Die Messungen durften wir in Linz bei der Firma KEBA durchführen. Dort gibt es eine Teilabsorberhalle, die sich für Messungen mit hochfrequenter Strahlung von 1 - 6 GHz eignet. Es wurde ein unmoduliertes Sinussignal verwendet, da dieses gut reproduzierbar und daher ideal für Vergleichsmessungen ist.\n\n\nDas Signal wurde von einem Signalgenerator erzeugt. In der Teilabsorberhalle wurde eine Horn-Antenne platziert, die ein elektromagnetisches Feld in Richtung der in 2,3 m entfernten Feldsonde aussendet. Wichtig war, dass sich die Feldsonde in einem möglichst homogenen Feld befand, daher wurden Reflexionen von Wänden und Boden durch Ferritkacheln und Pyramidenabsorber absorbiert (Bild 1 in blau).\n\n\n  \n\nBild 1: Versuchsaufbau in der Teilabsorberhalle\n\n\n\n  \n\nBild 2: Hornantenne\n\n\n\n  \n\nBild 3: Feldsonde\n\n\n\n\n\n ×\n\n\n ×\n\n\n ×"
+  },
+  {
+    "objectID": "messaufbau.html#aufbau-der-prüfkörper",
+    "href": "messaufbau.html#aufbau-der-prüfkörper",
+    "title": "Messaufbau",
+    "section": "Aufbau der Prüfkörper",
+    "text": "Aufbau der Prüfkörper\nEs wurden drei verschiedene Holz100 Wandtypen mit und ohne Dämmung geprüft. Um zwischen den Messungen die Wandaufbauten möglichst schnell wechseln zu können, hatten wir mehrere 2 cm dicke Dämmmatten und ein Fassadenelement, welche mittels Spanngurt auf die Wandwürfel befestigt werden konnten.\n\n\n  \n\nGrundkonstruktion\n\n\n\n  \n\nHolzfaserdämmung\n\n\n\n  \n\nFassade\n\n\n\n\n\n ×\n\n\n ×\n\n\n ×\n\nDie Prüflinge wurden direkt vor dem Empfänger (Feldsonde) auf einem Styroportisch aufgestellt.\n\n\n\n\nSeitenansicht des Prüfkörpers direkt vor der Feldsonde.\n\n\n\n\n17 cm Holz100 Wand\n\n\n\nDaten:  - mit und ohne 12 cm dicker Dämmung  - Fassade aus Fichte/Tanne  - 6 cm Kernlage  - 5 Schichten\n\n\n\n\n25 cm Holz100 Wand\n\n\n\nDaten:  - mit und ohne 8 cm dicker Dämmung  - Fassade aus Fichte/Tanne  - 8 cm Kernlage  - 7 Schichten  - Holz 100-Thermo  - höhere Dämmeigenschaften\n\n\n\n\n30.6 cm Holz100 Wand\n\n\n\nDaten:  - mit und ohne 6 cm dicker Dämmung  - Fassade aus Fichte/Tanne  - 8 cm Kernlage  - 9 Schichten  - auch ohne Dämmung möglich"
   }
 ]

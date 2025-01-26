@@ -1,0 +1,13 @@
+/* Dropdown-Menü Hintergrundfarbe ändern */
+.navbar-nav .dropdown-menu {
+    background-color: #D8F004; /* Hier kannst du die gewünschte Farbe eintragen */
+}
+.navbar-nav .dropdown-menu a {
+    font-weight: bold; /* Schrift fett machen */
+    color: #4F4F4F; /* Textfarbe */
+}
+
+/* Dropdown-Menü Hintergrundfarbe beim Hover */
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #4F4F4F; /* Farbe bei Hover-Effekt */
+}

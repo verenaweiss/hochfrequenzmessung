@@ -9,19 +9,24 @@ website:
       - href: index.qmd
         text: Home
       - projects.qmd
+      - text: Messungen
+        menu: 
+        - href: messaufbau.qmd
+          text: Messaufbau
+        - href: messablauf.qmd
+          text: Messablauf
+        - href: ergebnisse.qmd
+          text: Ergebnisse
     tools:
       - icon: instagram
         href: https://www.instagram.com/thoma_holz100/
-      - icon: github
-        href: https://github.com/verenaweiss/website
-  page-footer:
-    right: "Built with [Quarto](https://quarto.org/)"
-    left: "&copy; Copyright 2023, Verena Weiß"
+
 
 format:
   html:
-    theme: lux
+    theme: flatly
     toc: true
+    css: quarto.css
 
 editor: source
 

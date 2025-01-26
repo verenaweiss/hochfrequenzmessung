@@ -1,5 +1,8 @@
 ---
-title: "Projects"
+title: "Ziel des Projektes"
+format:
+  html:
+    css: projects.css
 ---
 
 ## Project 1
