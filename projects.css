@@ -1,5 +1,6 @@
 body {
   background-color: #ffffff; /* Hintergrundfarbe */
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
@@ -16,6 +17,22 @@ body {
     color: #D8F004; /* Farbe beim Überfahren mit der Maus */
     font-weight: bold;
 }
+
+.custom-link {
+  color: #799BAF;
+  text-decoration: underline;
+}
+
+.custom-box {
+  border: 3px solid #D8F004; /* Grüner Rand */
+  border-radius: 10px;       /* Abgerundete Ecken */
+  padding: 15px;            /* Innenabstand */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Schatten */
+  font-size: 18px;          /* Schriftgröße */
+  background-color: #F9FECE;
+}
+
+
 
 
 

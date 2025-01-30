@@ -128,8 +128,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#messsystem" id="toc-messsystem" class="nav-link active" data-scroll-target="#messsystem">Messsystem</a></li>
+  <li><a href="#berechnung-der-dämpfung" id="toc-berechnung-der-dämpfung" class="nav-link" data-scroll-target="#berechnung-der-dämpfung">Berechnung der Dämpfung</a></li>
+  <li><a href="#bildgalerie" id="toc-bildgalerie" class="nav-link" data-scroll-target="#bildgalerie">Bildgalerie</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -153,8 +161,77 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<hr style="border: 1px solid #D8F004; opacity: 1;">
+<p>Für die Messungen wurde ein <strong>unmoduliertes Sinussignal</strong> verwendet, weil dieses gut reproduzierbar und daher ideal für Vergleichsmessungen ist. <br> Gemessen wurde der Frequenzbereich <strong>1 GHz – 6 GHz</strong> mit vertikaler Antennenpolarisation.</p>
+<div class="image-with-caption">
+<figure class="figure">
+<img src="img/hf-signal.jpg" alt="Beschreibung des Bildes" class="figure-img">
+<figcaption>
+Unmoduliertes HF-Signal vs.&nbsp;moduliertes HF-Signal mit 80 % AM
+</figcaption>
+</figure>
+</div>
+<section id="messsystem" class="level2">
+<h2 class="anchored" data-anchor-id="messsystem">Messsystem</h2>
+<p>Ziel war es, dass immer eine <strong>elektrische Feldstärke von 1 V/m</strong> an der Feldsonde ankommt. Je Frequenzschritt wurde die Leistung am Signalgenerator also so lange erhöht, bis dieses elektrische Feld am Empfänger erreicht wurde.</p>
+<div class="image-with-caption">
+<figure class="figure">
+<img src="img/Skript.PNG" alt="Beschreibung des Bildes" class="figure-img">
+<figcaption>
+Einstellungen
+</figcaption>
+</figure>
+</div>
+<p>Nach Erreichen der vorgegebenen Feldstärke bei der Feldsonde wurde die benötigte Leistung des Signalgenerators für diesen Frequenzpunkt in einer Tabelle gespeichert. <br> Danach wurde die Frequenz um 1% der vorherigen Frequenz erhöht (1GHz -&gt; 1,01 GHz -&gt; 1,0201 GHz -&gt; …) und erneut die benötigte Leistung für 1 V/m bei der Feldsonde eingestellt.</p>
+</section>
+<section id="berechnung-der-dämpfung" class="level2">
+<h2 class="anchored" data-anchor-id="berechnung-der-dämpfung">Berechnung der Dämpfung</h2>
+<div class="container">
+<div class="text">
+Wird nun ein Holzaufbau zwischen Antenne und Feldsonde platziert, verändert sich die benötigte Leistung, um 1 V/m bei der Feldsonde zu messen. <br> Also wenn der Holzaufbau das Feld bei der jeweiligen Frequenz dämpft, wird mehr Leistung benötigt, um die geforderte Feldstärke zu erreichen. Der Unterschied der benötigten Leistung zwischen Freifeld (sprich ohne Holzaufbau zwischen Antenne und Feldsonde) und der Messung mit dem Holzaufbau liefert die Dämpfung.
+</div>
+<div class="infobox">
+<strong>Beispiel:</strong> <br> Bei Frequenz x wird im <strong>Freifeld -20 dBm</strong> Leistung am Signalgenerator benötigt, um 1 V/m bei der Feldsonde zu erzeugen. <br> <strong>Mit dem Holzaufbau</strong> zwischen Antenne und Feldsonde wird bei der gleichen Frequenz mehr Leistung am Signalgenerator benötigt, um 1 V/m zu erreichen, z.B. <strong>-15 dBm.</strong> <br> Die Differenz zwischen benötigter Leistung im Freifeld und benötigter Leistung mit Holzaufbau ergibt die Dämpfung. In diesem Beispiel <strong>5 dB</strong> bei Frequenz x.
+</div>
+</div>
+<p><strong>So kann die Dämpfung berechnet werden:</strong></p>
+<div class="custom-box">
+<p><strong>Dämpfung = benötigte Leistung mit Holzaufbau – benötigte Leistung im Freifeld</strong></p>
+</div>
+<p><br></p>
+<hr style="border: 1px solid #D8F004; opacity: 1;">
+</section>
+<section id="bildgalerie" class="level2">
+<h2 class="anchored" data-anchor-id="bildgalerie">Bildgalerie</h2>
+<div class="gallery-container">
+<figure class="figure">
+<img src="img/17cmwand.jpg" alt="Bild 1" class="figure-img">
+<figcaption>
+Messungen an der 17 cm Wand mit Dämmung und Fassade
+</figcaption>
+</figure>
+<figure class="figure">
+<img src="img/25cmwand.jpg" alt="Bild 2" class="figure-img">
+<figcaption>
+Messungen an der 25 cm Wand ohne Dämmung und Fassade
+</figcaption>
+</figure>
+<figure class="figure">
+<img src="img/30.6cmwand.jpg" alt="Bild 3" class="figure-img">
+<figcaption>
+Messungen an der 30,6 cm Wand mit Dämmung und Fassade
+</figcaption>
+</figure>
+<figure class="figure">
+<img src="img/metallplatte.jpg" alt="Bild 4" class="figure-img">
+<figcaption>
+Messungen an der Metallplatte
+</figcaption>
+</figure>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -4,4 +4,84 @@ format:
   html:
     css: messablauf.css
 ---
+<hr style="border: 1px solid #D8F004; opacity: 1;" />
+
+Für die Messungen wurde ein **unmoduliertes Sinussignal** verwendet, weil dieses gut reproduzierbar und daher ideal für Vergleichsmessungen ist.
+<br>
+Gemessen wurde der Frequenzbereich **1 GHz – 6 GHz** mit vertikaler Antennenpolarisation.
+
+<div class="image-with-caption">
+  <figure>
+    <img src="img/hf-signal.jpg" alt="Beschreibung des Bildes">
+    <figcaption>Unmoduliertes HF-Signal vs. moduliertes HF-Signal mit 80 %     AM</figcaption>
+  </figure>
+</div>
+
+## Messsystem
+
+Ziel war es, dass immer eine **elektrische Feldstärke von 1 V/m** an der Feldsonde ankommt. Je Frequenzschritt wurde die Leistung am Signalgenerator also so lange erhöht, bis dieses elektrische Feld am Empfänger erreicht wurde. 
+
+<div class="image-with-caption">
+  <figure>
+    <img src="img/Skript.PNG" alt="Beschreibung des Bildes">
+    <figcaption>Einstellungen</figcaption>
+  </figure>
+</div>
+
+Nach Erreichen der vorgegebenen Feldstärke bei der Feldsonde wurde die benötigte Leistung des Signalgenerators für diesen Frequenzpunkt in einer Tabelle gespeichert.
+<br>
+Danach wurde die Frequenz um 1% der vorherigen Frequenz erhöht (1GHz -> 1,01 GHz -> 1,0201 GHz -> …) und erneut die benötigte Leistung für 1 V/m bei der Feldsonde eingestellt. 
+
+## Berechnung der Dämpfung
+
+<div class="container">
+  <div class="text">
+  Wird nun ein Holzaufbau zwischen Antenne und Feldsonde platziert, verändert sich die benötigte Leistung, um 1 V/m bei der Feldsonde zu messen.
+    <br>
+Also wenn der Holzaufbau das Feld bei der jeweiligen Frequenz dämpft, wird mehr Leistung benötigt, um die geforderte Feldstärke zu erreichen.
+Der Unterschied der benötigten Leistung zwischen Freifeld (sprich ohne Holzaufbau zwischen Antenne und Feldsonde) und der Messung mit dem Holzaufbau liefert die Dämpfung.
+  </div>
+  <div class="infobox">
+**Beispiel:**
+<br>
+Bei Frequenz x wird im **Freifeld -20 dBm** Leistung am Signalgenerator benötigt, um 1 V/m bei der Feldsonde zu erzeugen.
+<br>
+**Mit dem Holzaufbau** zwischen Antenne und Feldsonde wird bei der gleichen Frequenz mehr Leistung am Signalgenerator benötigt, um 1 V/m zu erreichen, z.B. **-15 dBm.**
+<br>
+Die Differenz zwischen benötigter Leistung im Freifeld und benötigter Leistung mit Holzaufbau ergibt die Dämpfung. In diesem Beispiel **5 dB** bei Frequenz x.
+  </div>
+</div>
+
+**So kann die Dämpfung berechnet werden:** 
+
+<div class="custom-box">
+  **Dämpfung = benötigte Leistung mit Holzaufbau – benötigte Leistung im Freifeld** 
+</div>
+<br>
+
+<hr style="border: 1px solid #D8F004; opacity: 1;" />
+
+## Bildgalerie
+
+<div class="gallery-container">
+  <figure>
+    <img src="img/17cmwand.jpg" alt="Bild 1">
+    <figcaption>Messungen an der 17 cm Wand mit Dämmung und Fassade</figcaption>
+  </figure>
+  <figure>
+    <img src="img/25cmwand.jpg" alt="Bild 2">
+    <figcaption>Messungen an der 25 cm Wand ohne Dämmung und               Fassade</figcaption>
+  </figure>
+  <figure>
+    <img src="img/30.6cmwand.jpg" alt="Bild 3">
+    <figcaption>Messungen an der 30,6 cm Wand mit Dämmung und Fassade</figcaption>
+  </figure>
+  <figure>
+    <img src="img/metallplatte.jpg" alt="Bild 4">
+    <figcaption>Messungen an der Metallplatte</figcaption>
+  </figure>
+</div>
+
+
+
 

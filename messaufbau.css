@@ -57,7 +57,6 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 1000;  /* Sicherstellen, dass die Lightbox über anderen Elementen liegt */
-  margin-top:50px;
 }
 
 .lightbox:target {
@@ -71,19 +70,23 @@ body {
   width: auto;      /* Automatische Breitenanpassung */
   height: auto;     /* Automatische Höhenanpassung */
   border-radius: 10px;
-  margin-left: 330px;   /* Bild wird horizontal und vertikal mittig */
-  margin-top: 5px;
+  margin-left:330px; /* Bild wird horizontal und vertikal mittig */
+  margin-top: 60px;
 }
+
 
 .lightbox .close {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 90px;
+  right: 50px;
   text-decoration: none;
   font-size: 30px;
   color: white;
   z-index: 10;
 }
+
+
+
 
 /* Container für Bild links und Text rechts */
 .image-text-container {

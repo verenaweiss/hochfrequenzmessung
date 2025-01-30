@@ -1,6 +1,11 @@
 body {
   background-color: #ffffff; /* Hintergrundfarbe */
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
+
 
 .navbar {
   background-color: #4F4F4F !important; /* Navbar-Hintergrundfarbe */
@@ -16,3 +21,98 @@ body {
     color: #D8F004; /* Farbe beim Überfahren mit der Maus */
     font-weight: bold;
 }
+
+.image-with-caption {
+  text-align: center;      /* Zentriert alles */
+  margin: 20px 0;          /* Abstand nach oben und unten */
+}
+
+.image-with-caption img {
+  max-width: 70%;          /* Begrenzte Breite */
+  border-radius: 10px;     /* Runde Ecken */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Schatten */
+}
+
+.image-with-caption figcaption {
+  margin-top: 10px;        /* Abstand zur Bildunterschrift */
+  font-size: 14px;         /* Kleinere Schrift */
+  color: gray;             /* Graue Farbe */
+}
+
+.gallery-container {
+  display: flex;
+  overflow-x: auto; /* Ermöglicht horizontales Scrollen */
+  scroll-snap-type: x mandatory; /* Snap-Effekt */
+  gap: 1px /* Abstand zwischen den Bildern */
+  padding: 20px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column; /* Vertikale Anordnung von Bild und Unterschrift */
+  align-items: center; /* Zentriert Bild und Beschriftung */
+  justify-content: center; /* Verhindert ungleichmäßige Abstände */
+  flex-shrink: 0; /* Verhindert, dass Bilder kleiner werden */
+  width: 600px; /* Breite der Bilder */
+  margin: 0;
+  text-align: center; /* Text (Unterschrift) zentrieren */
+}
+
+figure img {
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+figcaption {
+  margin-top: 10px; /* Abstand zwischen Bild und Unterschrift */
+  font-size: 16px;
+  color: #555;
+  text-align: center; /* Text zentrieren */
+  width: 100%; /* Breite der Unterschrift an das Bild anpassen */
+}
+
+.gallery-container::-webkit-scrollbar {
+  height: 12px; /* Scrollbar-Höhe */
+}
+
+.gallery-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.gallery-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.custom-box {
+  border: 3px solid #D8F004; /* Grüner Rand */
+  border-radius: 10px;       /* Abgerundete Ecken */
+  padding: 15px;            /* Innenabstand */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Schatten */
+  font-size: 18px;          /* Schriftgröße */
+  background-color: #F9FECE;
+}
+
+.container {
+  display: flex; /* Flexbox aktivieren */
+  gap: 20px;     /* Abstand zwischen den beiden Elementen */
+  padding: 20px;
+}
+
+.text {
+  flex: 1; /* Der Text nimmt den restlichen Platz ein */
+}
+
+.infobox {
+  width: 350px; /* Breite der Infobox */
+  padding: 15px;
+  background-color: #F9FECE; /* Hintergrundfarbe */
+  border-radius: 8px; /* Runde Ecken */
+  border: 2px solid #D8F004; /* Rand um die Infobox */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Schatten */
+  font-size: 14px;
+}
+
+

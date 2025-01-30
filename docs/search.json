@@ -1,24 +1,59 @@
 [
   {
-    "objectID": "projects.html#project-2",
-    "href": "projects.html#project-2",
+    "objectID": "projects.html#ausgangslage",
+    "href": "projects.html#ausgangslage",
     "title": "Ziel des Projektes",
-    "section": "Project 2",
-    "text": "Project 2"
+    "section": "Ausgangslage",
+    "text": "Ausgangslage\nEs sind noch keine Messungen von 5G Abschirmung im Massivholzbau vorhanden, jedoch wurden Forschungen bezüglich niederfrequenterer Strahlungen - wie zum Beispiel durch die Universität der Bundeswehr für Hochfrequenz- und Mikrowellentechnik - bereits durchgeführt.\nUniversität der Bundeswehr München\nDie Ergebnisse zeigen, dass je höher die Frequenz ist, desto besser wird sie von Massivholzwänden abgeschirmt. Daher wird von einer noch besseren Abschirmung der 5G-Strahlung ausgegangen."
   },
   {
-    "objectID": "projects.html#project-3",
-    "href": "projects.html#project-3",
+    "objectID": "projects.html#ziel",
+    "href": "projects.html#ziel",
     "title": "Ziel des Projektes",
-    "section": "Project 3",
-    "text": "Project 3"
+    "section": "Ziel",
+    "text": "Ziel\nWir haben dazu folgende Hypothese aufgestellt: \n\nJe höher die elektromagnetische Strahlung, desto höher ist die Abschirmung der Holzaufbauten.\n\n Ziel unserer Arbeit war es nicht, genaue Abschirmungswerte zu messen, sondern unsere Hypothese zu verifizieren."
+  },
+  {
+    "objectID": "messablauf.html",
+    "href": "messablauf.html",
+    "title": "Messablauf",
+    "section": "",
+    "text": "Für die Messungen wurde ein unmoduliertes Sinussignal verwendet, weil dieses gut reproduzierbar und daher ideal für Vergleichsmessungen ist.  Gemessen wurde der Frequenzbereich 1 GHz – 6 GHz mit vertikaler Antennenpolarisation."
+  },
+  {
+    "objectID": "messablauf.html#messsystem",
+    "href": "messablauf.html#messsystem",
+    "title": "Messablauf",
+    "section": "Messsystem",
+    "text": "Messsystem\nZiel war es, dass immer eine elektrische Feldstärke von 1 V/m an der Feldsonde ankommt. Je Frequenzschritt wurde die Leistung am Signalgenerator also so lange erhöht, bis dieses elektrische Feld am Empfänger erreicht wurde.\n\n\n\n\nEinstellungen\n\n\n\nNach Erreichen der vorgegebenen Feldstärke bei der Feldsonde wurde die benötigte Leistung des Signalgenerators für diesen Frequenzpunkt in einer Tabelle gespeichert.  Danach wurde die Frequenz um 1% der vorherigen Frequenz erhöht (1GHz -&gt; 1,01 GHz -&gt; 1,0201 GHz -&gt; …) und erneut die benötigte Leistung für 1 V/m bei der Feldsonde eingestellt."
+  },
+  {
+    "objectID": "messablauf.html#berechnung-der-dämpfung",
+    "href": "messablauf.html#berechnung-der-dämpfung",
+    "title": "Messablauf",
+    "section": "Berechnung der Dämpfung",
+    "text": "Berechnung der Dämpfung\n\n\nWird nun ein Holzaufbau zwischen Antenne und Feldsonde platziert, verändert sich die benötigte Leistung, um 1 V/m bei der Feldsonde zu messen.  Also wenn der Holzaufbau das Feld bei der jeweiligen Frequenz dämpft, wird mehr Leistung benötigt, um die geforderte Feldstärke zu erreichen. Der Unterschied der benötigten Leistung zwischen Freifeld (sprich ohne Holzaufbau zwischen Antenne und Feldsonde) und der Messung mit dem Holzaufbau liefert die Dämpfung.\n\n\nBeispiel:  Bei Frequenz x wird im Freifeld -20 dBm Leistung am Signalgenerator benötigt, um 1 V/m bei der Feldsonde zu erzeugen.  Mit dem Holzaufbau zwischen Antenne und Feldsonde wird bei der gleichen Frequenz mehr Leistung am Signalgenerator benötigt, um 1 V/m zu erreichen, z.B. -15 dBm.  Die Differenz zwischen benötigter Leistung im Freifeld und benötigter Leistung mit Holzaufbau ergibt die Dämpfung. In diesem Beispiel 5 dB bei Frequenz x.\n\n\nSo kann die Dämpfung berechnet werden:\n\nDämpfung = benötigte Leistung mit Holzaufbau – benötigte Leistung im Freifeld"
+  },
+  {
+    "objectID": "messablauf.html#bildgalerie",
+    "href": "messablauf.html#bildgalerie",
+    "title": "Messablauf",
+    "section": "Bildgalerie",
+    "text": "Bildgalerie\n\n\n\n\nMessungen an der 17 cm Wand mit Dämmung und Fassade\n\n\n\n\n\nMessungen an der 25 cm Wand ohne Dämmung und Fassade\n\n\n\n\n\nMessungen an der 30,6 cm Wand mit Dämmung und Fassade\n\n\n\n\n\nMessungen an der Metallplatte"
+  },
+  {
+    "objectID": "ergebnisse.html#auswertung",
+    "href": "ergebnisse.html#auswertung",
+    "title": "Ergebnisse",
+    "section": "Auswertung",
+    "text": "Auswertung\nMit dem Programm RStudio wurden die Daten aus den Messungen aus Excel-Tabellen ausgewertet.\n\nDaten der Messungen\nBei den Messungen wurden folgende Werte erhoben: \n\n\nFrequenz in MHz\n\n\nGenerator Level/V in dBm\n\n\nTransducer Level/V in W\n\n\nImmunity Level/V in V/m"
   },
   {
     "objectID": "index.html#inhalt",
     "href": "index.html#inhalt",
     "title": "Unser Projekt",
     "section": "Inhalt",
-    "text": "Inhalt\nAuf dieser Website finden sie Informationen über unsere Diplomarbeit - von den Messungen bis zu den Ergebnissen und Schlussfolgerungen."
+    "text": "Inhalt\nAuf dieser Website finden Sie Informationen über unsere Diplomarbeit - von den Messungen bis zu den Ergebnissen und Schlussfolgerungen."
   },
   {
     "objectID": "index.html#daten-zum-downloaden",
@@ -28,18 +63,11 @@
     "text": "Daten zum Downloaden"
   },
   {
-    "objectID": "messaufbau.html",
-    "href": "messaufbau.html",
-    "title": "Messaufbau",
-    "section": "",
-    "text": "Die Messungen durften wir in Linz bei der Firma KEBA durchführen. Dort gibt es eine Teilabsorberhalle, die sich für Messungen mit hochfrequenter Strahlung von 1 - 6 GHz eignet. Es wurde ein unmoduliertes Sinussignal verwendet, da dieses gut reproduzierbar und daher ideal für Vergleichsmessungen ist.\n\n\nDas Signal wurde von einem Signalgenerator erzeugt. In der Teilabsorberhalle wurde eine Horn-Antenne platziert, die ein elektromagnetisches Feld in Richtung der in 2,3 m entfernten Feldsonde aussendet. Wichtig war, dass sich die Feldsonde in einem möglichst homogenen Feld befand, daher wurden Reflexionen von Wänden und Boden durch Ferritkacheln und Pyramidenabsorber absorbiert (Bild 1 in blau).\n\n\n  \n\nBild 1: Versuchsaufbau in der Teilabsorberhalle\n\n\n\n  \n\nBild 2: Hornantenne\n\n\n\n  \n\nBild 3: Feldsonde\n\n\n\n\n\n ×\n\n\n ×\n\n\n ×"
-  },
-  {
     "objectID": "messaufbau.html#versuchsaufbau",
     "href": "messaufbau.html#versuchsaufbau",
     "title": "Messaufbau",
-    "section": "",
-    "text": "Die Messungen durften wir in Linz bei der Firma KEBA durchführen. Dort gibt es eine Teilabsorberhalle, die sich für Messungen mit hochfrequenter Strahlung von 1 - 6 GHz eignet. Es wurde ein unmoduliertes Sinussignal verwendet, da dieses gut reproduzierbar und daher ideal für Vergleichsmessungen ist.\n\n\nDas Signal wurde von einem Signalgenerator erzeugt. In der Teilabsorberhalle wurde eine Horn-Antenne platziert, die ein elektromagnetisches Feld in Richtung der in 2,3 m entfernten Feldsonde aussendet. Wichtig war, dass sich die Feldsonde in einem möglichst homogenen Feld befand, daher wurden Reflexionen von Wänden und Boden durch Ferritkacheln und Pyramidenabsorber absorbiert (Bild 1 in blau).\n\n\n  \n\nBild 1: Versuchsaufbau in der Teilabsorberhalle\n\n\n\n  \n\nBild 2: Hornantenne\n\n\n\n  \n\nBild 3: Feldsonde\n\n\n\n\n\n ×\n\n\n ×\n\n\n ×"
+    "section": "Versuchsaufbau",
+    "text": "Versuchsaufbau\nDie Messungen durften wir in Linz bei der Firma KEBA durchführen. Dort gibt es eine Teilabsorberhalle, die sich für Messungen mit hochfrequenter Strahlung von 1 - 6 GHz eignet. Es wurde ein unmoduliertes Sinussignal verwendet, da dieses gut reproduzierbar und daher ideal für Vergleichsmessungen ist.\n\nBeschreibung des Aufbaus\nDas Signal wurde von einem Signalgenerator erzeugt, welcher von zwei Transformatoren verstärkt wurde. In der Teilabsorberhalle wurde eine Horn-Antenne platziert, die ein elektromagnetisches Feld in Richtung der in 2,3 m entfernten Feldsonde aussendet. Wichtig war, dass sich die Feldsonde in einem möglichst homogenen Feld befand, daher wurden Reflexionen von Wänden und Boden durch Ferritkacheln und Pyramidenabsorber absorbiert (Bild 1 in blau).\n\n\n  \n\nBild 1: Versuchsaufbau in der Teilabsorberhalle\n\n\n\n  \n\nBild 2: Hornantenne\n\n\n\n  \n\nBild 3: Feldsonde\n\n\n\n\n\n ×\n\n\n ×\n\n\n ×"
   },
   {
     "objectID": "messaufbau.html#aufbau-der-prüfkörper",

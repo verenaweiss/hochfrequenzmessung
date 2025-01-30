@@ -16,3 +16,13 @@ body {
     color: #D8F004; /* Farbe beim Überfahren mit der Maus */
     font-weight: bold;
 }
+
+ul {
+  list-style-type: disc; /* Standard-Bullet-Points */
+  padding-left: 50px;    /* Abstand vom Rand */
+  padding-top:10px;
+}
+
+li {
+  margin-bottom: 10px;   /* Abstand zwischen den Punkten */
+}

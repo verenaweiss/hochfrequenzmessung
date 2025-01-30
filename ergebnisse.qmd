@@ -4,4 +4,24 @@ format:
   html:
     css: ergebnisse.css
 ---
+<hr style="border: 1px solid #D8F004; opacity: 1;" />
+
+## Auswertung
+
+Mit dem Programm RStudio wurden die Daten aus den Messungen aus Excel-Tabellen ausgewertet. 
+
+### Daten der Messungen 
+
+Bei den Messungen wurden folgende Werte erhoben:
+<br>
+<ul>
+  <li>**Frequenz in MHz**</li>
+  <li>**Generator Level/V in dBm**</li>
+  <li>**Transducer Level/V in W**</li>
+  <li>**Immunity Level/V in V/m**</li>
+</ul>
+
+
+
+
 
