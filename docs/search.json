@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "ergebnisse.html#auswertung",
-    "href": "ergebnisse.html#auswertung",
-    "title": "Ergebnisse",
-    "section": "Auswertung",
-    "text": "Auswertung\nMit dem Programm RStudio wurden die Daten aus den Messungen aus Excel-Tabellen ausgewertet.\n\nDaten der Messungen\nBei den Messungen wurden folgende Werte erhoben: markdown \n\n\nFrequenz in MHz\n\n\nGenerator Level/V in dBm\n\n\nTransducer Level/V in W\n\n\nImmunity Level/V in V/m\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAuswertung 1: Mittelwerte …\n\n\n\nWichtig ist eine Leerzeile nach dem Bild sonst kommt das Figure 1 nicht daher. Das sehen sie in Figure 1.\n\n\n\nAuswertung 1: Mittelwerte …"
-  },
-  {
     "objectID": "messaufbau.html#versuchsaufbau",
     "href": "messaufbau.html#versuchsaufbau",
     "title": "Messaufbau",
@@ -47,6 +40,27 @@
     "title": "Messablauf",
     "section": "Bildgalerie",
     "text": "Bildgalerie\n\n\n\n\nMessungen an der 17 cm Wand mit Dämmung und Fassade\n\n\n\n\n\nMessungen an der 25 cm Wand ohne Dämmung und Fassade\n\n\n\n\n\nMessungen an der 30,6 cm Wand mit Dämmung und Fassade\n\n\n\n\n\nMessungen an der Metallplatte"
+  },
+  {
+    "objectID": "ergebnisse.html#auswertung",
+    "href": "ergebnisse.html#auswertung",
+    "title": "Ergebnisse",
+    "section": "Auswertung",
+    "text": "Auswertung\nMit dem Programm RStudio wurden die Daten aus den Messungen aus Excel-Tabellen ausgewertet.\n\nDaten der Messungen\nBei den Messungen wurden folgende Werte erhoben: markdown \n\n\nFrequenz in MHz\n\n\nGenerator Level/V in dBm\n\n\nTransducer Level/V in W\n\n\nImmunity Level/V in V/m\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAuswertung 1: Mittelwerte …\n\n\n\nWichtig ist eine Leerzeile nach dem Bild sonst kommt das Figure 1 nicht daher. Das sehen sie in Figure 1.\n\n\n\nAuswertung 1: Mittelwerte …"
+  },
+  {
+    "objectID": "index.html#inhalt",
+    "href": "index.html#inhalt",
+    "title": "Unser Projekt",
+    "section": "Inhalt",
+    "text": "Inhalt\nAuf dieser Website finden Sie Informationen über unsere Diplomarbeit - von den Messungen bis zu den Ergebnissen und Schlussfolgerungen."
+  },
+  {
+    "objectID": "index.html#github-repository",
+    "href": "index.html#github-repository",
+    "title": "Unser Projekt",
+    "section": "Github Repository",
+    "text": "Github Repository\nDie Daten dieser Webseite, inkl. der Messdaten und Analysen der Hochfrequenzmessung finden Sie in unserem Github Repository. https://github.com/verenaweiss/hochfrequenzmessung"
   },
   {
     "objectID": "projects.html#ausgangslage",
