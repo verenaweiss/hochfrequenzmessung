@@ -4,8 +4,8 @@ library(dplyr)
 library(writexl)
 library(openxlsx)
 
-tabelle1 <- read.xlsx("C:\\Users\\veren\\OneDrive\\Dokumente\\Holztechnikum\\Diplomarbeit\\Analyse\\250HolzDämmung\\250HolzDämmung_neu.xlsx")
-tabelle2 <- read_excel("C:\\Users\\veren\\OneDrive\\Dokumente\\Holztechnikum\\Diplomarbeit\\Analyse\\Freifeld\\Freifeld_neu.xlsx") 
+tabelle1 <- read.xlsx("./Analyse/250HolzDämmung/250HolzDämmung_neu.xlsx")
+tabelle2 <- read_excel("./Analyse/Freifeld/Freifeld_neu.xlsx") 
 colnames(tabelle1)
 colnames(tabelle2)
 
@@ -24,13 +24,13 @@ head(kombinierte_tabelle)
 
 
 # Optional: Ergebnisse exportieren
-write_xlsx(kombinierte_tabelle, "C:/Users/veren/OneDrive/Dokumente/Holztechnikum/Diplomarbeit/Analyse/250HolzDämmung/Kombiniert.xlsx")
+write_xlsx(kombinierte_tabelle, "./Analyse/250HolzDämmung/Kombiniert.xlsx")
 
 
 library(ggplot2)
 
 # 3. Excel-Datei einlesen
-daten <- read_excel("C:/Users/veren/OneDrive/Dokumente/Holztechnikum/Diplomarbeit/Analyse/250HolzDämmung/Kombiniert.xlsx")
+daten <- read_excel("./Analyse/250HolzDämmung/Kombiniert.xlsx")
 
 # 4. Überprüfen, ob die Tabelle korrekt geladen wurde
 head(daten)  

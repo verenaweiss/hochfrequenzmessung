@@ -4,9 +4,9 @@ library(writexl)
 library(tidyverse)
 
 # Excel-Dateien einlesen
-tabelle1 <- read_excel("C:\\Users\\veren\\OneDrive\\Dokumente\\Holztechnikum\\Diplomarbeit\\Analyse\\Messungen\\250Holz_20240724_01.xls")
-tabelle2 <- read_excel("C:\\Users\\veren\\OneDrive\\Dokumente\\Holztechnikum\\Diplomarbeit\\Analyse\\Messungen\\250Holz_20240724_02.xls")
-tabelle3 <- read_excel("C:\\Users\\veren\\OneDrive\\Dokumente\\Holztechnikum\\Diplomarbeit\\Analyse\\Messungen\\250Holz_20240724_03.xls")
+tabelle1 <- read_excel("./Analyse/Messungen/250Holz_20240724_01.xls")
+tabelle2 <- read_excel("./Analyse/Messungen/250Holz_20240724_02.xls")
+tabelle3 <- read_excel("./Analyse/Messungen/250Holz_20240724_03.xls")
 
 
 # Daten zusammenführen (tidyverse Methode)
@@ -58,4 +58,4 @@ ggplot(werte, aes(x = Frequency, y = Mittelwert)) +  # x = Frequency, y = Mittel
   ) +
   theme_minimal()  # Minimalistisches Design
 
-write_xlsx(werte, "C:/Users/veren/OneDrive/Dokumente/Holztechnikum/Diplomarbeit/Analyse/250Holz/250Holz_neu.xlsx")
+write_xlsx(werte, "./Analyse/250Holz/250Holz_neu.xlsx")

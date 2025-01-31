@@ -4,9 +4,9 @@ library(tidyverse)
 
 # Tabellen einlesen und mit einem Label versehen
 
-tabelle_250_holz <- read_excel("C:\\Users\\veren\\OneDrive\\Dokumente\\Holztechnikum\\Diplomarbeit\\Analyse\\250Holz\\Kombiniert.xlsx") %>%
+tabelle_250_holz <- read_excel("./Analyse/250Holz/Kombiniert.xlsx") %>%
   mutate(Tabelle = "250 Holz")
-tabelle_250_holz_daemmung <- read_excel("C:\\Users\\veren\\OneDrive\\Dokumente\\Holztechnikum\\Diplomarbeit\\Analyse\\250HolzDämmung\\Kombiniert.xlsx") %>%
+tabelle_250_holz_daemmung <- read_excel("./Analyse/250HolzDämmung/Kombiniert.xlsx") %>%
   mutate(Tabelle = "250 Holz + Dämmung")
 
 

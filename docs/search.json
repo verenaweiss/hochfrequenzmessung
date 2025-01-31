@@ -1,17 +1,24 @@
 [
   {
-    "objectID": "projects.html#ausgangslage",
-    "href": "projects.html#ausgangslage",
-    "title": "Ziel des Projektes",
-    "section": "Ausgangslage",
-    "text": "Ausgangslage\nEs sind noch keine Messungen von 5G Abschirmung im Massivholzbau vorhanden, jedoch wurden Forschungen bezüglich niederfrequenterer Strahlungen - wie zum Beispiel durch die Universität der Bundeswehr für Hochfrequenz- und Mikrowellentechnik - bereits durchgeführt.\nUniversität der Bundeswehr München\nDie Ergebnisse zeigen, dass je höher die Frequenz ist, desto besser wird sie von Massivholzwänden abgeschirmt. Daher wird von einer noch besseren Abschirmung der 5G-Strahlung ausgegangen."
+    "objectID": "ergebnisse.html#auswertung",
+    "href": "ergebnisse.html#auswertung",
+    "title": "Ergebnisse",
+    "section": "Auswertung",
+    "text": "Auswertung\nMit dem Programm RStudio wurden die Daten aus den Messungen aus Excel-Tabellen ausgewertet.\n\nDaten der Messungen\nBei den Messungen wurden folgende Werte erhoben: markdown \n\n\nFrequenz in MHz\n\n\nGenerator Level/V in dBm\n\n\nTransducer Level/V in W\n\n\nImmunity Level/V in V/m\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAuswertung 1: Mittelwerte …\n\n\n\nWichtig ist eine Leerzeile nach dem Bild sonst kommt das Figure 1 nicht daher. Das sehen sie in Figure 1.\n\n\n\nAuswertung 1: Mittelwerte …"
   },
   {
-    "objectID": "projects.html#ziel",
-    "href": "projects.html#ziel",
-    "title": "Ziel des Projektes",
-    "section": "Ziel",
-    "text": "Ziel\nWir haben dazu folgende Hypothese aufgestellt: \n\nJe höher die elektromagnetische Strahlung, desto höher ist die Abschirmung der Holzaufbauten.\n\n Ziel unserer Arbeit war es nicht, genaue Abschirmungswerte zu messen, sondern unsere Hypothese zu verifizieren."
+    "objectID": "messaufbau.html#versuchsaufbau",
+    "href": "messaufbau.html#versuchsaufbau",
+    "title": "Messaufbau",
+    "section": "Versuchsaufbau",
+    "text": "Versuchsaufbau\nDie Messungen durften wir in Linz bei der Firma KEBA durchführen. Dort gibt es eine Teilabsorberhalle, die sich für Messungen mit hochfrequenter Strahlung von 1 - 6 GHz eignet. Es wurde ein unmoduliertes Sinussignal verwendet, da dieses gut reproduzierbar und daher ideal für Vergleichsmessungen ist.\n\nBeschreibung des Aufbaus\nDas Signal wurde von einem Signalgenerator erzeugt, welcher von zwei Transformatoren verstärkt wurde. In der Teilabsorberhalle wurde eine Horn-Antenne platziert, die ein elektromagnetisches Feld in Richtung der in 2,3 m entfernten Feldsonde aussendet. Wichtig war, dass sich die Feldsonde in einem möglichst homogenen Feld befand, daher wurden Reflexionen von Wänden und Boden durch Ferritkacheln und Pyramidenabsorber absorbiert (Bild 1 in blau).\n\n\n  \n\nBild 1: Versuchsaufbau in der Teilabsorberhalle\n\n\n\n  \n\nBild 2: Hornantenne\n\n\n\n  \n\nBild 3: Feldsonde\n\n\n\n\n\n ×\n\n\n ×\n\n\n ×"
+  },
+  {
+    "objectID": "messaufbau.html#aufbau-der-prüfkörper",
+    "href": "messaufbau.html#aufbau-der-prüfkörper",
+    "title": "Messaufbau",
+    "section": "Aufbau der Prüfkörper",
+    "text": "Aufbau der Prüfkörper\nEs wurden drei verschiedene Holz100 Wandtypen mit und ohne Dämmung geprüft. Um zwischen den Messungen die Wandaufbauten möglichst schnell wechseln zu können, hatten wir mehrere 2 cm dicke Dämmmatten und ein Fassadenelement, welche mittels Spanngurt auf die Wandwürfel befestigt werden konnten.\n\n\n  \n\nGrundkonstruktion\n\n\n\n  \n\nHolzfaserdämmung\n\n\n\n  \n\nFassade\n\n\n\n\n\n ×\n\n\n ×\n\n\n ×\n\nDie Prüflinge wurden direkt vor dem Empfänger (Feldsonde) auf einem Styroportisch aufgestellt.\n\n\n\n\nSeitenansicht des Prüfkörpers direkt vor der Feldsonde.\n\n\n\n\n17 cm Holz100 Wand\n\n\n\nDaten:  - mit und ohne 12 cm dicker Dämmung  - Fassade aus Fichte/Tanne  - 6 cm Kernlage  - 5 Schichten\n\n\n\n\n25 cm Holz100 Wand\n\n\n\nDaten:  - mit und ohne 8 cm dicker Dämmung  - Fassade aus Fichte/Tanne  - 8 cm Kernlage  - 7 Schichten  - Holz 100-Thermo  - höhere Dämmeigenschaften\n\n\n\n\n30.6 cm Holz100 Wand\n\n\n\nDaten:  - mit und ohne 6 cm dicker Dämmung  - Fassade aus Fichte/Tanne  - 8 cm Kernlage  - 9 Schichten  - auch ohne Dämmung möglich"
   },
   {
     "objectID": "messablauf.html",
@@ -42,38 +49,17 @@
     "text": "Bildgalerie\n\n\n\n\nMessungen an der 17 cm Wand mit Dämmung und Fassade\n\n\n\n\n\nMessungen an der 25 cm Wand ohne Dämmung und Fassade\n\n\n\n\n\nMessungen an der 30,6 cm Wand mit Dämmung und Fassade\n\n\n\n\n\nMessungen an der Metallplatte"
   },
   {
-    "objectID": "ergebnisse.html#auswertung",
-    "href": "ergebnisse.html#auswertung",
-    "title": "Ergebnisse",
-    "section": "Auswertung",
-    "text": "Auswertung\nMit dem Programm RStudio wurden die Daten aus den Messungen aus Excel-Tabellen ausgewertet.\n\nDaten der Messungen\nBei den Messungen wurden folgende Werte erhoben: markdown \n\n\nFrequenz in MHz\n\n\nGenerator Level/V in dBm\n\n\nTransducer Level/V in W\n\n\nImmunity Level/V in V/m\n\n\n\n\n\n\n\n\n\n\n\n Das sehen sie in ?@fig-1. In diesem"
+    "objectID": "projects.html#ausgangslage",
+    "href": "projects.html#ausgangslage",
+    "title": "Ziel des Projektes",
+    "section": "Ausgangslage",
+    "text": "Ausgangslage\nEs sind noch keine Messungen von 5G Abschirmung im Massivholzbau vorhanden, jedoch wurden Forschungen bezüglich niederfrequenterer Strahlungen - wie zum Beispiel durch die Universität der Bundeswehr für Hochfrequenz- und Mikrowellentechnik - bereits durchgeführt.\nUniversität der Bundeswehr München\nDie Ergebnisse zeigen, dass je höher die Frequenz ist, desto besser wird sie von Massivholzwänden abgeschirmt. Daher wird von einer noch besseren Abschirmung der 5G-Strahlung ausgegangen."
   },
   {
-    "objectID": "index.html#inhalt",
-    "href": "index.html#inhalt",
-    "title": "Unser Projekt",
-    "section": "Inhalt",
-    "text": "Inhalt\nAuf dieser Website finden Sie Informationen über unsere Diplomarbeit - von den Messungen bis zu den Ergebnissen und Schlussfolgerungen."
-  },
-  {
-    "objectID": "index.html#daten-zum-downloaden",
-    "href": "index.html#daten-zum-downloaden",
-    "title": "Unser Projekt",
-    "section": "Daten zum Downloaden",
-    "text": "Daten zum Downloaden\nFinden Sie in unserem Github Repository im Ordner Messungen. https://github.com/verenaweiss/hochfrequenzmessung"
-  },
-  {
-    "objectID": "messaufbau.html#versuchsaufbau",
-    "href": "messaufbau.html#versuchsaufbau",
-    "title": "Messaufbau",
-    "section": "Versuchsaufbau",
-    "text": "Versuchsaufbau\nDie Messungen durften wir in Linz bei der Firma KEBA durchführen. Dort gibt es eine Teilabsorberhalle, die sich für Messungen mit hochfrequenter Strahlung von 1 - 6 GHz eignet. Es wurde ein unmoduliertes Sinussignal verwendet, da dieses gut reproduzierbar und daher ideal für Vergleichsmessungen ist.\n\nBeschreibung des Aufbaus\nDas Signal wurde von einem Signalgenerator erzeugt, welcher von zwei Transformatoren verstärkt wurde. In der Teilabsorberhalle wurde eine Horn-Antenne platziert, die ein elektromagnetisches Feld in Richtung der in 2,3 m entfernten Feldsonde aussendet. Wichtig war, dass sich die Feldsonde in einem möglichst homogenen Feld befand, daher wurden Reflexionen von Wänden und Boden durch Ferritkacheln und Pyramidenabsorber absorbiert (Bild 1 in blau).\n\n\n  \n\nBild 1: Versuchsaufbau in der Teilabsorberhalle\n\n\n\n  \n\nBild 2: Hornantenne\n\n\n\n  \n\nBild 3: Feldsonde\n\n\n\n\n\n ×\n\n\n ×\n\n\n ×"
-  },
-  {
-    "objectID": "messaufbau.html#aufbau-der-prüfkörper",
-    "href": "messaufbau.html#aufbau-der-prüfkörper",
-    "title": "Messaufbau",
-    "section": "Aufbau der Prüfkörper",
-    "text": "Aufbau der Prüfkörper\nEs wurden drei verschiedene Holz100 Wandtypen mit und ohne Dämmung geprüft. Um zwischen den Messungen die Wandaufbauten möglichst schnell wechseln zu können, hatten wir mehrere 2 cm dicke Dämmmatten und ein Fassadenelement, welche mittels Spanngurt auf die Wandwürfel befestigt werden konnten.\n\n\n  \n\nGrundkonstruktion\n\n\n\n  \n\nHolzfaserdämmung\n\n\n\n  \n\nFassade\n\n\n\n\n\n ×\n\n\n ×\n\n\n ×\n\nDie Prüflinge wurden direkt vor dem Empfänger (Feldsonde) auf einem Styroportisch aufgestellt.\n\n\n\n\nSeitenansicht des Prüfkörpers direkt vor der Feldsonde.\n\n\n\n\n17 cm Holz100 Wand\n\n\n\nDaten:  - mit und ohne 12 cm dicker Dämmung  - Fassade aus Fichte/Tanne  - 6 cm Kernlage  - 5 Schichten\n\n\n\n\n25 cm Holz100 Wand\n\n\n\nDaten:  - mit und ohne 8 cm dicker Dämmung  - Fassade aus Fichte/Tanne  - 8 cm Kernlage  - 7 Schichten  - Holz 100-Thermo  - höhere Dämmeigenschaften\n\n\n\n\n30.6 cm Holz100 Wand\n\n\n\nDaten:  - mit und ohne 6 cm dicker Dämmung  - Fassade aus Fichte/Tanne  - 8 cm Kernlage  - 9 Schichten  - auch ohne Dämmung möglich"
+    "objectID": "projects.html#ziel",
+    "href": "projects.html#ziel",
+    "title": "Ziel des Projektes",
+    "section": "Ziel",
+    "text": "Ziel\nWir haben dazu folgende Hypothese aufgestellt: \n\nJe höher die elektromagnetische Strahlung, desto höher ist die Abschirmung der Holzaufbauten.\n\n Ziel unserer Arbeit war es nicht, genaue Abschirmungswerte zu messen, sondern unsere Hypothese zu verifizieren."
   }
 ]

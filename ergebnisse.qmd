@@ -3,6 +3,8 @@ title: "Ergebnisse"
 execute: 
   echo: false
   warning: false
+crossref:
+  fig-title: Auswertung
 format:
   html:
     css: ergebnisse.css
@@ -34,8 +36,8 @@ library(tidyverse)
 
 # Excel-Dateien einlesen
 tabelle1 <- read_excel("./Messungen/170Holz_20240724_01.xls")
-tabelle2 <- read_excel("./Messungen\\170Holz_20240724_02.xls")
-tabelle3 <- read_excel("./Messungen\\170Holz_20240724_03.xls")
+tabelle2 <- read_excel("./Messungen/170Holz_20240724_02.xls")
+tabelle3 <- read_excel("./Messungen/170Holz_20240724_03.xls")
 
 
 
@@ -90,9 +92,12 @@ ggplot(werte, aes(x = Frequency, y = Mittelwert)) +  # x = Frequency, y = Mittel
 
 
 ```
-![Bild 1](./Analyse/170Holz/170HolzGrafik.png){#fig-1} 
-Das sehen sie in @fig-1.
-In diesem 
+
+
+![Mittelwerte ...](./Analyse/170Holz/170HolzGrafik.png){.lightbox #fig-1} 
+
+Wichtig ist eine Leerzeile nach dem Bild sonst kommt das Figure 1 nicht daher. Das sehen sie in @fig-1.
+
 
 
 

@@ -3,11 +3,11 @@ library(readxl)
 library(tidyverse)
 
 # Tabellen einlesen und mit einem Label versehen
-tabelle_170_holz_daemmung <- read_excel("C:\\Users\\veren\\OneDrive\\Dokumente\\Holztechnikum\\Diplomarbeit\\Analyse\\170HolzDämmung\\Kombiniert.xlsx") %>%
+tabelle_170_holz_daemmung <- read_excel("./Analyse/170HolzDämmung/Kombiniert.xlsx") %>%
   mutate(Tabelle = "170 Holz + Dämmung")
-tabelle_250_holz_daemmung <- read_excel("C:\\Users\\veren\\OneDrive\\Dokumente\\Holztechnikum\\Diplomarbeit\\Analyse\\250HolzDämmung\\Kombiniert.xlsx") %>%
+tabelle_250_holz_daemmung <- read_excel("./Analyse/250HolzDämmung/Kombiniert.xlsx") %>%
   mutate(Tabelle = "250 Holz + Dämmung")
-tabelle_306_holz_daemmung <- read_excel("C:\\Users\\veren\\OneDrive\\Dokumente\\Holztechnikum\\Diplomarbeit\\Analyse\\306HolzDämmung\\Kombiniert.xlsx") %>%
+tabelle_306_holz_daemmung <- read_excel("./Analyse/306HolzDämmung/Kombiniert.xlsx") %>%
   mutate(Tabelle = "306 Holz + Dämmung")
 
 # Alle Tabellen zusammenführen

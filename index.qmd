@@ -27,8 +27,8 @@ about:
 
 Auf dieser Website finden Sie Informationen über unsere Diplomarbeit - von den Messungen bis zu den Ergebnissen und Schlussfolgerungen. 
 
-## Daten zum Downloaden
-Finden Sie in unserem Github Repository im Ordner Messungen.
+## Github Repository
+Die Daten dieser Webseite, inkl. der Messdaten und Analysen der Hochfrequenzmessung finden Sie in unserem Github Repository.
 [https://github.com/verenaweiss/hochfrequenzmessung](https://github.com/verenaweiss/hochfrequenzmessung)
 
 
