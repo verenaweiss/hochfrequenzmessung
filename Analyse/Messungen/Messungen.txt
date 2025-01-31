@@ -1,0 +1,21 @@
+1-6G, 3V/m
+Frei 01
+Frei 02
+Frei 03
+306 Holz, 40 Dämmung (Abgespeichert als 60) (Anm: 01)
+	3V/m nicht mehr erreicht aufgrund von Maximalleistung des Generators
+	-> Neues Skript mit 1V/m erstellt.
+
+--------------------------------------------------------------------------
+1G-6G, 1V/m
+306 Holz, 40 Dämmung (Abgespeichert als 60) (Anm: 02 bis 04)
+306 Holz, 120 Dämmung
+306 Holz, 80 Dämmung
+306 Holz, 60 Dämmung (Abgespeichert als 60 real)
+306 Holz
+170 Holz, 120 Dämmung
+170 Holz
+250 Holz, 80 Dämmung
+250 Holz
+Metallplatte
+Freifeld

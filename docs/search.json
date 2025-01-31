@@ -46,7 +46,7 @@
     "href": "ergebnisse.html#auswertung",
     "title": "Ergebnisse",
     "section": "Auswertung",
-    "text": "Auswertung\nMit dem Programm RStudio wurden die Daten aus den Messungen aus Excel-Tabellen ausgewertet.\n\nDaten der Messungen\nBei den Messungen wurden folgende Werte erhoben: \n\n\nFrequenz in MHz\n\n\nGenerator Level/V in dBm\n\n\nTransducer Level/V in W\n\n\nImmunity Level/V in V/m"
+    "text": "Auswertung\nMit dem Programm RStudio wurden die Daten aus den Messungen aus Excel-Tabellen ausgewertet.\n\nDaten der Messungen\nBei den Messungen wurden folgende Werte erhoben: markdown \n\n\nFrequenz in MHz\n\n\nGenerator Level/V in dBm\n\n\nTransducer Level/V in W\n\n\nImmunity Level/V in V/m\n\n\n\n\n\n\n\n\n\n\n\n Das sehen sie in ?@fig-1. In diesem"
   },
   {
     "objectID": "index.html#inhalt",
@@ -60,7 +60,7 @@
     "href": "index.html#daten-zum-downloaden",
     "title": "Unser Projekt",
     "section": "Daten zum Downloaden",
-    "text": "Daten zum Downloaden"
+    "text": "Daten zum Downloaden\nFinden Sie in unserem Github Repository im Ordner Messungen. https://github.com/verenaweiss/hochfrequenzmessung"
   },
   {
     "objectID": "messaufbau.html#versuchsaufbau",

@@ -1,42 +1,12 @@
----
-title: "Ergebnisse"
-execute: 
-  echo: false
-  warning: false
-format:
-  html:
-    css: ergebnisse.css
----
-<hr style="border: 1px solid #D8F004; opacity: 1;" />
-
-## Auswertung
-
-Mit dem Programm RStudio wurden die Daten aus den Messungen aus Excel-Tabellen ausgewertet. 
-
-### Daten der Messungen 
-
-Bei den Messungen wurden folgende Werte erhoben:
- markdown
-<br>
-<ul>
-  <li>**Frequenz in MHz**</li>
-  <li>**Generator Level/V in dBm**</li>
-  <li>**Transducer Level/V in W**</li>
-  <li>**Immunity Level/V in V/m**</li>
-</ul>
-
-```{r}
-#
 # Pakete laden
 library(readxl)
 library(writexl)
 library(tidyverse)
 
 # Excel-Dateien einlesen
-tabelle1 <- read_excel("./Messungen/170Holz_20240724_01.xls")
-tabelle2 <- read_excel("./Messungen\\170Holz_20240724_02.xls")
-tabelle3 <- read_excel("./Messungen\\170Holz_20240724_03.xls")
-
+tabelle1 <- read_excel("C:\\Users\\veren\\OneDrive\\Dokumente\\Holztechnikum\\Diplomarbeit\\Analyse\\Messungen\\250Holz_20240724_01.xls")
+tabelle2 <- read_excel("C:\\Users\\veren\\OneDrive\\Dokumente\\Holztechnikum\\Diplomarbeit\\Analyse\\Messungen\\250Holz_20240724_02.xls")
+tabelle3 <- read_excel("C:\\Users\\veren\\OneDrive\\Dokumente\\Holztechnikum\\Diplomarbeit\\Analyse\\Messungen\\250Holz_20240724_03.xls")
 
 
 # Daten zusammenführen (tidyverse Methode)
@@ -58,7 +28,7 @@ werte$Tabelle2 <- as.numeric(werte$Tabelle2)
 werte$Tabelle3 <- as.numeric(werte$Tabelle3)
 
 # Überprüfen der Daten nach dem Laden
-#head(werte)
+head(werte)
 
 # Fehlende Werte (NA) durch den Mittelwert der jeweiligen Spalte ersetzen
 werte <- werte %>%
@@ -73,7 +43,7 @@ werte <- werte %>%
   mutate(Mittelwert = rowMeans(select(werte, Tabelle1, Tabelle2, Tabelle3), na.rm = TRUE))
 
 # Überprüfen, ob die Spalte "Mittelwert" erfolgreich hinzugefügt wurde
-#head(werte)
+head(werte)
 
 # Falls es NA-Werte in der Mittelwert-Spalte gibt, beheben
 werte$Mittelwert <- ifelse(is.na(werte$Mittelwert), 0, werte$Mittelwert)
@@ -82,18 +52,10 @@ werte$Mittelwert <- ifelse(is.na(werte$Mittelwert), 0, werte$Mittelwert)
 ggplot(werte, aes(x = Frequency, y = Mittelwert)) +  # x = Frequency, y = Mittelwert
   geom_line(color = "blue") +  # Liniendiagramm
   labs(
-    title = "Mittelwerte 17 cm Holz100",  # Titel des Diagramms
+    title = "Mittelwerte 25 cm Holz100",  # Titel des Diagramms
     x = "Frequenz (Hz)",  # x-Achse: Frequency
     y = "Mittelwert (Generator Level/V)"  # y-Achse: Mittelwert
   ) +
   theme_minimal()  # Minimalistisches Design
 
-
-```
-![Bild 1](./Analyse/170Holz/170HolzGrafik.png){#fig-1} 
-Das sehen sie in @fig-1.
-In diesem 
-
-
-
-
+write_xlsx(werte, "C:/Users/veren/OneDrive/Dokumente/Holztechnikum/Diplomarbeit/Analyse/250Holz/250Holz_neu.xlsx")
