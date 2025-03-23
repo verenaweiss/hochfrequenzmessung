@@ -19,18 +19,16 @@ Gemessen wurde der Frequenzbereich **1 GHz – 6 GHz** mit vertikaler Antennenpo
 
 ## Messsystem
 
-Ziel war es, dass immer eine **elektrische Feldstärke von 1 V/m** an der Feldsonde ankommt. Je Frequenzschritt wurde die Leistung am Signalgenerator also so lange erhöht, bis dieses elektrische Feld am Empfänger erreicht wurde. 
+Die Einstellung des Wertes "Level" bewirkt, dass immer eine elektrische Feldstärke von 1 V/m an der Feldsonde erreicht wird. Infolgedessen wurde die Leistung am Signalgenerator so lange erhöht, bis dieses elektrische Feld am Empfänger gemessen wurde. Nach Erreichen der vorgegebenen Feldstärke bei der Feldsonde erfolgte eine Abspeicherung der benötigten Leistung des Signalgenerators für den gemessenen Frequenzpunkt in einer Tabelle. Im Anschluss wurde die Frequenz um 1 % der vorherigen Frequenz erhöht, zum Beispiel von 1 GHz auf 1,01 GHz auf 1,0201 GHz. Daraufhin wurde erneut die benötigte Leistung für 1 V/m bei der Feldsonde eingestellt.
 
 <div class="image-with-caption">
   <figure>
     <img src="img/Skript.PNG" alt="Beschreibung des Bildes">
-    <figcaption>Einstellungen</figcaption>
+    <figcaption>Grundeinstellungen und Gerätekonfigurationen, Level: magnetische Feldstärke, Subrange: Frequenzbereiche der Verstärker, Step: Frequenzschritte</figcaption>
   </figure>
 </div>
 
-Nach Erreichen der vorgegebenen Feldstärke bei der Feldsonde wurde die benötigte Leistung des Signalgenerators für diesen Frequenzpunkt in einer Tabelle gespeichert.
-<br>
-Danach wurde die Frequenz um 1% der vorherigen Frequenz erhöht (1GHz -> 1,01 GHz -> 1,0201 GHz -> …) und erneut die benötigte Leistung für 1 V/m bei der Feldsonde eingestellt. 
+Bei der Platzierung eines Holzaufbaus im elektromagnetischen Feld war eine höhere Leistung vom Generator erforderlich, um die magnetische Feldstärke von 1 V/m an der Feldsonde zu erreichen. Aufgrund der benötigten Leistung konnte die Dämpfung der Holzwände in dB ermittelt werden. Dazu musste zusätzlich das Freifeld, also ohne jegliche Prüfkörper zwischen der Antenne und der Feldsonde, gemessen und die Leistung des Generators aufgezeichnet werden. Der Unterschied der benötigten Leistung zwischen der Messung mit dem Freifeld und der Messung mit dem Holzaufbau lieferte die Dämpfung in dB.
 
 ## Berechnung der Dämpfung
 
@@ -39,7 +37,8 @@ Danach wurde die Frequenz um 1% der vorherigen Frequenz erhöht (1GHz -> 1,01 GH
   Wird nun ein Holzaufbau zwischen Antenne und Feldsonde platziert, verändert sich die benötigte Leistung, um 1 V/m bei der Feldsonde zu messen.
     <br>
 Also wenn der Holzaufbau das Feld bei der jeweiligen Frequenz dämpft, wird mehr Leistung benötigt, um die geforderte Feldstärke zu erreichen.
-Der Unterschied der benötigten Leistung zwischen Freifeld (sprich ohne Holzaufbau zwischen Antenne und Feldsonde) und der Messung mit dem Holzaufbau liefert die Dämpfung.
+Aufgrund der benötigten Leistung des Signalgenerators pro Frequenzschritt konnte die Dämpfung der Holzwände in dB ermittelt werden. Dazu musste zusätzlich das Freifeld, also ohne jegliche Prüfkörper zwischen der Antenne und der Feldsonde, gemessen und die Leistung des Generators aufgezeichnet werden.
+Der Unterschied der benötigten Leistung zwischen der Messung mit dem Freifeld und der Messung mit dem Holzaufbau lieferte die Dämpfung in dB.
   </div>
   <div class="infobox">
 **Beispiel:**
@@ -54,12 +53,18 @@ Die Differenz zwischen benötigter Leistung im Freifeld und benötigter Leistung
 
 **So kann die Dämpfung berechnet werden:** 
 
-<div class="custom-box">
-  **Dämpfung = benötigte Leistung mit Holzaufbau – benötigte Leistung im Freifeld** 
+<div class="image-with-caption">
+  <figure>
+    <img src="img/Dämpfung.png" alt="Beschreibung des Bildes">
+    <figcaption>Die Dämpfung lässt sich demnach berechnen, indem die benötigte Leistung im Freifeld von der benötigten Leistung mit Holzaufbau subtrahiert wird </figcaption>
+  </figure>
 </div>
 <br>
 
+Gemessen wurden die 17 cm dicke, die 25 cm dicke und die 30,6 cm dicke Holz100-Wand, jeweils mit und ohne Dämmung und Fassade. Zusätzlich wurden Messungen im Freifeld und an einer Metallplatte mit den Abmessungen 500 x 500 x 0,5 mm durchgeführt. Pro Messaufbau wurden drei direkt aufeinanderfolgende Messungen gemacht, um daraus den Mittelwert zu berechnen und kleine, systembedingte Schwankungen bei den Leistungseinstellungen am Signalgenerator zu minimieren. Wichtig war, dass der Aufbau zwischen den Messungen nicht verändert wurde. Der Prüfkörper wurde auf dem Styroportisch auf die mit Klebeband markierte Fläche gestellt, danch wurde die Teilabsorberhalle verschlossen und die Messung gestartet.
+
 <hr style="border: 1px solid #D8F004; opacity: 1;" />
+
 
 ## Bildgalerie
 

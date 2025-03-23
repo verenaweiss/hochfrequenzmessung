@@ -7,7 +7,7 @@ format:
 <hr style="border: 1px solid #D8F004; opacity: 1;" />
 ## Versuchsaufbau
 
-Die Messungen durften wir in Linz bei der Firma KEBA durchführen. Dort gibt es eine Teilabsorberhalle, die sich für Messungen mit hochfrequenter Strahlung von **1 - 6 GHz** eignet. Es wurde ein **unmoduliertes Sinussignal** verwendet, da dieses gut reproduzierbar und daher ideal für Vergleichsmessungen ist.
+Die Messungen durften wir in Linz bei der Firma KEBA durchführen. Dort gibt es eine Teilabsorberhalle, die sich für Messungen mit hochfrequenter Strahlung von **1 - 6 GHz** eignet. Es wurde ein **unmoduliertes Sinussignal** verwendet, da dieses gut reproduzierbar und daher ideal für Vergleichsmessungen ist. Der Frequenzbereich für die Messungen von 1 bis 6 GHz wurde aufgrund der 5G-Frequenzbänder gewählt. Je nach Anwendungsbereich nutzt 5G unterschiedliche Frequenzbänder – von niedrigen 700 MHz bis zu sehr hohen Frequenzen von 26, 40 oder sogar 70 GHz. Der mittlere 5G-Frequenzbereich liegt jedoch zwischen 1 und 6 GHz, weshalb die Prüflinge genau in diesem Bereich untersucht wurden.Allerdings lassen sich aus den Messungen keine direkten Rückschlüsse darauf ziehen, wie gut oder schlecht eine 5G-Funkverbindung in einem Gebäude aus dem jeweiligen Material tatsächlich funktioniert.
 
 ### Beschreibung des Aufbaus
 Das Signal wurde von einem **Signalgenerator** erzeugt, welcher von zwei Transformatoren verstärkt wurde. In der **Teilabsorberhalle** wurde eine **Horn-Antenne** platziert, die ein elektromagnetisches Feld in Richtung der in 2,3 m entfernten **Feldsonde** aussendet. Wichtig war, dass sich die Feldsonde in einem möglichst homogenen Feld befand, daher wurden Reflexionen von Wänden und Boden durch Ferritkacheln und Pyramidenabsorber absorbiert (Bild 1 in **blau**).
@@ -87,7 +87,7 @@ Es wurden drei verschiedene Holz100 Wandtypen mit und ohne Dämmung geprüft. Um
   <a href="#" class="close">×</a>
 </div>
 
-Die Prüflinge wurden direkt vor dem Empfänger (Feldsonde) auf einem **Styroportisch** aufgestellt. 
+Die Prüflinge wurden direkt vor dem Empfänger (Feldsonde) auf einem **Styroportisch** aufgestellt, da Styropor eine geringe elektrische Leitfähigkeit hat und keine elektromagnetischen Wellen leitet, reflektiert oder abschirmt.
 
 <div class="image-with-caption">
   <figure>
@@ -104,7 +104,7 @@ Die Prüflinge wurden direkt vor dem Empfänger (Feldsonde) auf einem **Styropor
   <div class="right-text">
   **Daten:** 
   <br>
-   - mit und ohne 12 cm dicker Dämmung
+   - mit und ohne 12 cm dicker Holzfaserdämmplatte
    <br>
    - Fassade aus Fichte/Tanne 
    <br>
@@ -121,7 +121,7 @@ Die Prüflinge wurden direkt vor dem Empfänger (Feldsonde) auf einem **Styropor
   <div class="right-text">
   **Daten:** 
   <br>
-   - mit und ohne 8 cm dicker Dämmung
+   - mit und ohne 8 cm dicker Holzfaserdämmplatte
    <br>
    - Fassade aus Fichte/Tanne 
    <br>
@@ -142,7 +142,7 @@ Die Prüflinge wurden direkt vor dem Empfänger (Feldsonde) auf einem **Styropor
   <div class="right-text">
   **Daten:** 
   <br>
-   - mit und ohne 6 cm dicker Dämmung
+   - mit und ohne 6 cm dicker Holzfaserdämmplatte
    <br>
    - Fassade aus Fichte/Tanne 
    <br>

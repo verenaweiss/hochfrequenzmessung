@@ -1,5 +1,9 @@
 body {
   background-color: #ffffff; /* Hintergrundfarbe */
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -25,4 +29,21 @@ ul {
 
 li {
   margin-bottom: 10px;   /* Abstand zwischen den Punkten */
+}
+
+.image-with-caption {
+  text-align: center;      /* Zentriert alles */
+  margin: 20px 0;          /* Abstand nach oben und unten */
+}
+
+.image-with-caption img {
+  max-width: 70%;          /* Begrenzte Breite */
+  border-radius: 10px;     /* Runde Ecken */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Schatten */
+}
+
+.image-with-caption figcaption {
+  margin-top: 10px;        /* Abstand zur Bildunterschrift */
+  font-size: 14px;         /* Kleinere Schrift */
+  color: gray;             /* Graue Farbe */
 }

@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.551">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Hochfrequente Strahlung im Massivholzbau - Ergebnisse</title>
+<title>Ergebnisse – Hochfrequente Strahlung im Massivholzbau</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,9 +39,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -87,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -101,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Ziel des Projektes</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-messungen" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-messungen" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Messungen</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-messungen">    
@@ -119,9 +116,13 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./interpretation.html"> 
+<span class="menu-text">Interpretation der Ergebnisse</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
     <a href="https://www.instagram.com/thoma_holz100/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-instagram"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -140,6 +141,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#daten-der-messungen" id="toc-daten-der-messungen" class="nav-link" data-scroll-target="#daten-der-messungen">Daten der Messungen</a></li>
   </ul></li>
+  <li><a href="#ergebnisvergleich" id="toc-ergebnisvergleich" class="nav-link" data-scroll-target="#ergebnisvergleich">Ergebnisvergleich</a></li>
   </ul>
 </nav>
     </div>
@@ -168,10 +170,10 @@ ul.task-list li input[type="checkbox"] {
 <hr style="border: 1px solid #D8F004; opacity: 1;">
 <section id="auswertung" class="level2">
 <h2 class="anchored" data-anchor-id="auswertung">Auswertung</h2>
-<p>Mit dem Programm RStudio wurden die Daten aus den Messungen aus Excel-Tabellen ausgewertet.</p>
+<p>Mit dem Programm RStudio wurden die Daten aus den Messungen aus Excel-Tabellen ausgewertet. Da pro Messaufbau drei Messungen durchgeführt wurden, musste zuerst der Mittelwert dieser Ergebnisse berechnet werden. Hierzu wurden Excel-Tabellen in RStudio eingelesen, die Daten verarbeitet, der Mittelwert kalkuliert und die Ergebnisse in neuen Excel-Tabellen gespeichert. Für die Berechnung der Dämpfung in Dezibel war die zuvor erstellte Tabelle der Mittelwerte des jeweiligen Wandaufbaus sowie die des Freifelds notwendig. Die vom Generator benötigte Leistung pro Frequenz im Freifeld wurde der Leistung pro Frequenz mit Prüfkörper abgezogen. Letzlich wurde zum Vergleich der verschiedenen Wandaufbauten für jeden Wandtypen ein Liniendiagramm erstellt, das die Mittelwerte mit und ohne Dämmung sowie Fassade darstellt.</p>
 <section id="daten-der-messungen" class="level3">
 <h3 class="anchored" data-anchor-id="daten-der-messungen">Daten der Messungen</h3>
-Bei den Messungen wurden folgende Werte erhoben: markdown <br>
+Bei den Messungen wurden folgende Werte erhoben: <br>
 <ul>
 <li>
 <strong>Frequenz in MHz</strong>
@@ -180,38 +182,62 @@ Bei den Messungen wurden folgende Werte erhoben: markdown <br>
 <strong>Generator Level/V in dBm</strong>
 </li>
 <li>
-<strong>Transducer Level/V in W</strong>
-</li>
-<li>
 <strong>Immunity Level/V in V/m</strong>
 </li>
 </ul>
-<div class="cell">
-<div class="cell-output-display">
-<div>
+<p>Der Wert „Generator Level“ beschreibt die Leistung, die vom Signalgenerator pro Frequenzschritt ausging. In den Tabellen wird dieser Wert als „Generator Level/V“ bezeichnet, wobei das /V für eine vertikale Polarisation steht. „Immunity Level/V“ ist die gemessene elektrische Feldstärke an der Feldsonde und entspricht immer 1 V/m.</p>
+</section>
+</section>
+<section id="ergebnisvergleich" class="level2">
+<h2 class="anchored" data-anchor-id="ergebnisvergleich">Ergebnisvergleich</h2>
+<p>Die x-Achse der erstellten Diagramme zeigt jeweils die Frequenz in Megahertz. Die y-Achse beschreibt die Dämpfung in Dezibel (dB).</p>
+<div class="image-with-caption">
 <figure class="figure">
-<p><img src="ergebnisse_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<div id="fig-1" class="lightbox quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="./Analyse/170Holz/170HolzGrafik.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1"><img src="./Analyse/170Holz/170HolzGrafik.png" class="img-fluid figure-img"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Auswertung&nbsp;1: Mittelwerte …
+<img src="img/17.png" alt="Beschreibung des Bildes" class="figure-img">
+<figcaption>
+H100- W17 Außenwand
 </figcaption>
 </figure>
 </div>
-<p>Wichtig ist eine Leerzeile nach dem Bild sonst kommt das Figure 1 nicht daher. Das sehen sie in <a href="#fig-1" class="quarto-xref">Figure&nbsp;1</a>.</p>
-
-
-<div class="hidden" aria-hidden="true">
-<span class="glightbox-desc lightbox-desc-1">Auswertung&nbsp;1: Mittelwerte …</span>
+<p>Die H100-W17 ist die dünnste untersuchte Wand dieser Diplomarbeit. Das Diagramm zeigt eine steigende Abschirmung mit zunehmender Frequenz. Der mit Holzfaserdämmung verstärkte Prüfkörper (grau) erreicht im Bereich 0–2 GHz maximal 7,5 dB, bei 2–3 GHz bis zu 15 dB. Ab 3 GHz steigt die Dämpfung stetig an und erreicht im 5–6-GHz-Bereich 20 dB (99 %). Der ungedämmte Prüfkörper liegt darunter und erzielt dort maximal 16 dB (97,49 %).</p>
+<div class="image-with-caption">
+<figure class="figure">
+<img src="img/25.png" alt="Beschreibung des Bildes" class="figure-img">
+<figcaption>
+H100- W25 Außenwand
+</figcaption>
+</figure>
 </div>
-</section>
+<p>Bei der H100-W25-Außenwand zeigen die Kurven ein gegensätzliches Verhalten. Bis 3 GHz verlaufen sie ähnlich, danach steigt die Dämpfung der gedämmten Wand, während die der ungedämmten fällt. Zwischen 4 und 5 GHz erreicht die ungedämmte Wand 18 dB, während die gedämmte zwischen 5 und 10 dB schwankt. An der 5-GHz-Grenze steigt sie auf 24 dB (99,6 %). Bei 6 GHz schneiden sich die Kurven und dämpfen jeweils 17 dB (98 %).</p>
+<div class="image-with-caption">
+<figure class="figure">
+<img src="img/306.png" alt="Beschreibung des Bildes" class="figure-img">
+<figcaption>
+H100- W30 Außenwand
+</figcaption>
+</figure>
+</div>
+<p>Die H100-W30 dämpfte am stärksten. Zwischen 0 und 3 GHz schwankt die Dämpfung zwischen 0 und 16 dB, ohne große Unterschiede zwischen den Prüfkörpern. Ab 3 GHz steigt die Dämpfung der gedämmten Wand deutlich und erreicht zwischen 3 und 5 GHz bis zu 25 dB, während die ungedämmte Wand maximal 18 dB erzielt. Die Höchstdämpfung beträgt 27 dB (99,8 %), während die ungedämmte Wand 23 dB erreicht.</p>
+<div class="image-with-caption">
+<figure class="figure">
+<img src="img/ohnedämmung.png" alt="Beschreibung des Bildes" class="figure-img">
+<figcaption>
+Außenwände ohne Holzfaserdämmung im Vergleich
+</figcaption>
+</figure>
+</div>
+<p>Die Abbildung oben vergleicht die ungedämmten Wände, wobei die Wandstärke die Dämpfung beeinflusst. Die H100-W17 erreicht maximal 15 dB (96,84 %), die H100-W25 im 4G-Bereich 17 dB (98 %). Dies bleibt jedoch nur kurz der Höchstwert, da die H100-W30 insgesamt stärker dämpft und zwischen 5 und 6 GHz über 23 dB (99,49 %) erreicht.</p>
+<div class="image-with-caption">
+<figure class="figure">
+<img src="img/midämmung.png" alt="Beschreibung des Bildes" class="figure-img">
+<figcaption>
+Außenwände mit Holzfaserdämmung
+</figcaption>
+</figure>
+</div>
+<p>Diese Abbildung zeigt die drei gedämmten Wände mit Fassadenelement und damit eine realistische Einbausituation. Die 17-cm-Wand dämpft bis 5 GHz stärker als die ungedämmte und erreicht maximal 20 dB, 4 dB mehr als ohne Dämmung. Die H100-W25 steigt ab 5 GHz um 8 dB über die ungedämmte Wand. Die H100-W30 dämpft am besten, mit einem Spitzenwert von 28 dB gegenüber 25 dB der ungedämmten 30,6-cm-Wand. Ab 3 GHz steigt ihre Dämpfung stark an und liegt im 3–4-GHz-Bereich zwischen 15 und 25 dB, während die H100-W17 und H100-W25 nur 5–15 dB erreichen.</p>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -250,18 +276,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -293,7 +308,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -301,7 +338,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -625,31 +662,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox","descPosition":"bottom","loop":false});
-window.onload = () => {
-  lightboxQuarto.on('slide_before_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    const href = trigger.getAttribute('href');
-    if (href !== null) {
-      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-      if (imgEl !== null) {
-        const srcAttr = imgEl.getAttribute("src");
-        if (srcAttr && srcAttr.startsWith("data:")) {
-          slideConfig.href = srcAttr;
-        }
-      }
-    } 
-  });
-
-  lightboxQuarto.on('slide_after_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    if (window.Quarto?.typesetMath) {
-      window.Quarto.typesetMath(slideNode);
-    }
-  });
-
-};
-          </script>
 
 
 

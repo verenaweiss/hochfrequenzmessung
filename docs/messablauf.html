@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.551">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Hochfrequente Strahlung im Massivholzbau - Messablauf</title>
+<title>Messablauf – Hochfrequente Strahlung im Massivholzbau</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -98,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Ziel des Projektes</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-messungen" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-messungen" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Messungen</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-messungen">    
@@ -116,9 +116,13 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./interpretation.html"> 
+<span class="menu-text">Interpretation der Ergebnisse</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
     <a href="https://www.instagram.com/thoma_holz100/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-instagram"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -173,32 +177,38 @@ Unmoduliertes HF-Signal vs.&nbsp;moduliertes HF-Signal mit 80 % AM
 </div>
 <section id="messsystem" class="level2">
 <h2 class="anchored" data-anchor-id="messsystem">Messsystem</h2>
-<p>Ziel war es, dass immer eine <strong>elektrische Feldstärke von 1 V/m</strong> an der Feldsonde ankommt. Je Frequenzschritt wurde die Leistung am Signalgenerator also so lange erhöht, bis dieses elektrische Feld am Empfänger erreicht wurde.</p>
+<p>Die Einstellung des Wertes “Level” bewirkt, dass immer eine elektrische Feldstärke von 1 V/m an der Feldsonde erreicht wird. Infolgedessen wurde die Leistung am Signalgenerator so lange erhöht, bis dieses elektrische Feld am Empfänger gemessen wurde. Nach Erreichen der vorgegebenen Feldstärke bei der Feldsonde erfolgte eine Abspeicherung der benötigten Leistung des Signalgenerators für den gemessenen Frequenzpunkt in einer Tabelle. Im Anschluss wurde die Frequenz um 1 % der vorherigen Frequenz erhöht, zum Beispiel von 1 GHz auf 1,01 GHz auf 1,0201 GHz. Daraufhin wurde erneut die benötigte Leistung für 1 V/m bei der Feldsonde eingestellt.</p>
 <div class="image-with-caption">
 <figure class="figure">
 <img src="img/Skript.PNG" alt="Beschreibung des Bildes" class="figure-img">
 <figcaption>
-Einstellungen
+Grundeinstellungen und Gerätekonfigurationen, Level: magnetische Feldstärke, Subrange: Frequenzbereiche der Verstärker, Step: Frequenzschritte
 </figcaption>
 </figure>
 </div>
-<p>Nach Erreichen der vorgegebenen Feldstärke bei der Feldsonde wurde die benötigte Leistung des Signalgenerators für diesen Frequenzpunkt in einer Tabelle gespeichert. <br> Danach wurde die Frequenz um 1% der vorherigen Frequenz erhöht (1GHz -&gt; 1,01 GHz -&gt; 1,0201 GHz -&gt; …) und erneut die benötigte Leistung für 1 V/m bei der Feldsonde eingestellt.</p>
+<p>Bei der Platzierung eines Holzaufbaus im elektromagnetischen Feld war eine höhere Leistung vom Generator erforderlich, um die magnetische Feldstärke von 1 V/m an der Feldsonde zu erreichen. Aufgrund der benötigten Leistung konnte die Dämpfung der Holzwände in dB ermittelt werden. Dazu musste zusätzlich das Freifeld, also ohne jegliche Prüfkörper zwischen der Antenne und der Feldsonde, gemessen und die Leistung des Generators aufgezeichnet werden. Der Unterschied der benötigten Leistung zwischen der Messung mit dem Freifeld und der Messung mit dem Holzaufbau lieferte die Dämpfung in dB.</p>
 </section>
 <section id="berechnung-der-dämpfung" class="level2">
 <h2 class="anchored" data-anchor-id="berechnung-der-dämpfung">Berechnung der Dämpfung</h2>
 <div class="container">
 <div class="text">
-Wird nun ein Holzaufbau zwischen Antenne und Feldsonde platziert, verändert sich die benötigte Leistung, um 1 V/m bei der Feldsonde zu messen. <br> Also wenn der Holzaufbau das Feld bei der jeweiligen Frequenz dämpft, wird mehr Leistung benötigt, um die geforderte Feldstärke zu erreichen. Der Unterschied der benötigten Leistung zwischen Freifeld (sprich ohne Holzaufbau zwischen Antenne und Feldsonde) und der Messung mit dem Holzaufbau liefert die Dämpfung.
+Wird nun ein Holzaufbau zwischen Antenne und Feldsonde platziert, verändert sich die benötigte Leistung, um 1 V/m bei der Feldsonde zu messen. <br> Also wenn der Holzaufbau das Feld bei der jeweiligen Frequenz dämpft, wird mehr Leistung benötigt, um die geforderte Feldstärke zu erreichen. Aufgrund der benötigten Leistung des Signalgenerators pro Frequenzschritt konnte die Dämpfung der Holzwände in dB ermittelt werden. Dazu musste zusätzlich das Freifeld, also ohne jegliche Prüfkörper zwischen der Antenne und der Feldsonde, gemessen und die Leistung des Generators aufgezeichnet werden. Der Unterschied der benötigten Leistung zwischen der Messung mit dem Freifeld und der Messung mit dem Holzaufbau lieferte die Dämpfung in dB.
 </div>
 <div class="infobox">
 <strong>Beispiel:</strong> <br> Bei Frequenz x wird im <strong>Freifeld -20 dBm</strong> Leistung am Signalgenerator benötigt, um 1 V/m bei der Feldsonde zu erzeugen. <br> <strong>Mit dem Holzaufbau</strong> zwischen Antenne und Feldsonde wird bei der gleichen Frequenz mehr Leistung am Signalgenerator benötigt, um 1 V/m zu erreichen, z.B. <strong>-15 dBm.</strong> <br> Die Differenz zwischen benötigter Leistung im Freifeld und benötigter Leistung mit Holzaufbau ergibt die Dämpfung. In diesem Beispiel <strong>5 dB</strong> bei Frequenz x.
 </div>
 </div>
 <p><strong>So kann die Dämpfung berechnet werden:</strong></p>
-<div class="custom-box">
-<p><strong>Dämpfung = benötigte Leistung mit Holzaufbau – benötigte Leistung im Freifeld</strong></p>
+<div class="image-with-caption">
+<figure class="figure">
+<img src="img/Dämpfung.png" alt="Beschreibung des Bildes" class="figure-img">
+<figcaption>
+Die Dämpfung lässt sich demnach berechnen, indem die benötigte Leistung im Freifeld von der benötigten Leistung mit Holzaufbau subtrahiert wird
+</figcaption>
+</figure>
 </div>
 <p><br></p>
+<p>Gemessen wurden die 17 cm dicke, die 25 cm dicke und die 30,6 cm dicke Holz100-Wand, jeweils mit und ohne Dämmung und Fassade. Zusätzlich wurden Messungen im Freifeld und an einer Metallplatte mit den Abmessungen 500 x 500 x 0,5 mm durchgeführt. Pro Messaufbau wurden drei direkt aufeinanderfolgende Messungen gemacht, um daraus den Mittelwert zu berechnen und kleine, systembedingte Schwankungen bei den Leistungseinstellungen am Signalgenerator zu minimieren. Wichtig war, dass der Aufbau zwischen den Messungen nicht verändert wurde. Der Prüfkörper wurde auf dem Styroportisch auf die mit Klebeband markierte Fläche gestellt, danch wurde die Teilabsorberhalle verschlossen und die Messung gestartet.</p>
 <hr style="border: 1px solid #D8F004; opacity: 1;">
 </section>
 <section id="bildgalerie" class="level2">
@@ -269,18 +279,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -312,7 +311,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -320,7 +341,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

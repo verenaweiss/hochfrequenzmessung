@@ -1,0 +1,49 @@
+body {
+  background-color: #ffffff; /* Hintergrundfarbe */
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: #4F4F4F !important; /* Navbar-Hintergrundfarbe */
+}
+
+
+.navbar a {
+    font-weight: bold; /* Schrift fett machen */
+    color: #ffffff; /* Textfarbe */
+}
+
+.navbar a:hover {
+    color: #D8F004; /* Farbe beim Überfahren mit der Maus */
+    font-weight: bold;
+}
+
+ul {
+  list-style-type: disc; /* Standard-Bullet-Points */
+  padding-left: 50px;    /* Abstand vom Rand */
+  padding-top:10px;
+}
+
+li {
+  margin-bottom: 10px;   /* Abstand zwischen den Punkten */
+}
+
+.image-with-caption {
+  text-align: center;      /* Zentriert alles */
+  margin: 20px 0;          /* Abstand nach oben und unten */
+}
+
+.image-with-caption img {
+  max-width: 70%;          /* Begrenzte Breite */
+  border-radius: 10px;     /* Runde Ecken */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Schatten */
+}
+
+.image-with-caption figcaption {
+  margin-top: 10px;        /* Abstand zur Bildunterschrift */
+  font-size: 14px;         /* Kleinere Schrift */
+  color: gray;             /* Graue Farbe */
+}
