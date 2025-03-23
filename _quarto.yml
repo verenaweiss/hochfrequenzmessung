@@ -17,6 +17,8 @@ website:
           text: Messablauf
         - href: ergebnisse.qmd
           text: Ergebnisse
+      - href: interpretation.qmd
+        text: Interpretation der Ergebnisse
     tools:
       - icon: instagram
         href: https://www.instagram.com/thoma_holz100/

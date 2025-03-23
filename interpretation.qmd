@@ -1,0 +1,52 @@
+---
+title: "Ergebnisinterpretation"
+execute: 
+  echo: false
+  warning: false
+crossref:
+  fig-title: Auswertung
+format:
+  html:
+    css: interpretation.css
+---
+<hr style="border: 1px solid #D8F004; opacity: 1;" />
+
+## Erkenntnisse aus den Messergebnissen
+
+Wie bei den Ergebnissen bereits erwähnt, ist ein deutlicher Unterschied der Abschirmung zwischen der 17 cm dicken Holz100-Wand mit und ohne Dämmung erkennbar. Vor allem im Bereich von 4 bis 6 GHz, also bei höheren Frequenzen, trägt die Dämmung einen großen Beitrag zur Dämpfung bei. In diesem Intervall kommt es zu Differenzen zwischen den Wandaufbauten von bis zu 10 dB. Grund dafür ist die im Verhältnis zur Stärke des gesamten Wandaufbaus sehr dicke Dämmung von 12 cm. Diese hat bezogen auf die Gesamtdicke von 29 cm einen Anteil von ca. 40 %.
+<br>
+Um herauszufinden, ob die Holzfaserdämmplatte bessere Dämpfungseigenschaften als Holz100 aufweist, kann die 17 cm dicke Wand mit Dämmung mit der 30,6 cm dicken Wand ohne Dämmplatte verglichen werden, da diese Wandaufbauten ungefähr die gleiche Dicke haben. 
+<div class="image-with-caption">
+  <figure>
+    <img src="img/Grafik17und30.png" alt="Beschreibung des Bildes">
+    <figcaption>H100-W17 mit Dämmung und H100-W30 ohne Dämmung im Vergleich</figcaption>
+  </figure>
+</div>
+Wie in der Grafik oben erkennbar, dämpft die H100-W30 vor allem in den niedrigeren Frequenzen besser. Daraus lässt sich schließen, dass die Dämmung keinen besseren Dämpfwert als Holz100 aufweist. Dabei ist zu beachten, dass die 30,6 cm starke Wand um 1,6 cm dicker ist und der Unterschied daraus resultieren könnte. Holz schirmt laut diesen Ergebnissen elektromagnetische Wellen nahezu über den gesamten Frequenzbereich von 4 bis 6 GHz besser ab.
+<br>
+<br>
+Die Dämpfmittelwerte der H100-W25-Außenwände unterscheiden sich weniger als bei den H100-W17-Wänden (siehe „Messungen“, „Ergebnisse“). Dies liegt daran, dass die 8 cm dicke Dämmplatten nur rund 24 % der Gesamtstärke von 33 cm ausmacht. Der geringere Unterschied in der Materialstärke zwischen den Wandaufbauten könnte dieses Ergebnis erklären. 
+<br>
+<br>
+Die Kurven der H100-W30-Wände verlaufen nahezu identisch (siehe "Ergebnisse"). Die 6 cm dicke Holzfaserdämmplatte macht nur 16 % der Gesamtstärke aus. Mit zunehmender Wandstärke steigt die Dämpfung bis 2 GHz stärker an, während der Anstieg darüber hinaus flacher verläuft. Dünnere Wände zeigen dagegen einen gleichmäßigeren Anstieg. Dies bestätigt, dass dickere Wände nicht nur insgesamt besser dämpfen, sondern besonders niederfrequente Strahlung effektiver abschirmen.
+
+**Folgende Erkenntnisse lassen sich festhalten**
+<ul>
+  <li>Grund für die besseren Dämpfungseigenschaften bei Wandaufbauten mit Holzfaserdämmung ist nicht die Dämmung an sich, sondern die zunehmende Stärke des gesamten Aufbaus. </li>
+  <li>Holz besitzt bessere Dämpfungseigenschaften gegenüber elektromagnetischer Strahlung als Holzfaserdämmung.</li>
+  <li>Dickere Holzwände bieten bereits bei niedrigen Frequenzen eine bessere Dämpfung und wirken sich auch bei hohen Frequenzen positiv aus.</li>
+  <li>Die Hypothese wird bestätigt: Je höher die Frequenz der elektromagnetischen Strahlung, desto stärker wird sie von Holz100-Wänden abgeschirmt.</li>
+</ul>
+
+## Aussagekraft und Nutzen
+
+Es ist wichtig zu erwähnen, dass die Messungen unter Laborbedingungen durchgeführt wurden. In realen Anwendungen, beispielsweise in bestehenden Gebäuden, sind abweichende Ergebnisse zu erwarten – insbesondere, wenn die Räume nicht aus einem einzigen Material bestehen oder nicht exakt den untersuchten Aufbauten entsprechen. Zudem können Beschichtungen, Fenster, Fensterrahmen, Türen und Verbindungsstellen die Dämpfung elektromagnetischer Strahlung beeinflussen oder einschränken.
+<br>
+<br>
+Eine hohe Abschirmung von hochfrequenter elektromagnetischer Strahlung ist nicht immer positiv zu sehen. In einem Haus, welches kaum Strahlung wie zum Beispiel 4G oder 5G durchlässt, müssen Mobiltelefone, WLAN-Router und andere drahtlose Geräte mit viel mehr Sendeleistung arbeiten. Das wirkt dem gewünschten Effekt, elektromagnetische Wellen außerhalb des Wohnraumes zu halten, entgegen und bewirkt das Gegenteil. Zudem halten die gut dämpfenden Wände die im Innenraum erzeugte Strahlung zurück. Dies kann nicht nur zu einem erhöhten Energieverbrauch und einer verkürzten Akkulaufzeit bei mobilen Geräten führen, sondern auch zu Empfangsproblemen, insbesondere bei größeren Entfernungen zum WLAN-Router. In solchen Fällen sind zusätzliche WLAN-Verstärker erforderlich, was strahlungsbewusste Nutzer meist vermeiden möchten, da dadurch die Strahlung wieder verstärkt wird.
+<br>
+<br>
+Eine mögliche Lösung wäre eine gezielte Auswahl der Wandstärke je nach Raumnutzung, damit je nach Zweck eine Balance zwischen Strahlungsabschirmung und Funkverfügbarkeit besteht. In Wohnräumen, Büros oder anderen Bereichen, in denen drahtlose Geräte häufig verwendet werden, wäre der Einsatz von dünneren Wänden sinnvoll. Somit würde die Signalübertragung von WLAN, Mobilfunk und anderen drahtlosen Technologien trotzdem ausreichend sein und es würde verhindert, dass Geräte mit erhöhter Sende- beziehungsweise Empfangsleistung arbeiten müssen. 
+<br>
+<br>
+In Schlafräumen oder Erholungsbereichen, in denen elektromagnetische Strahlung unerwünscht ist, könnte eine effektive Abschirmung durch dickere Wände mit höheren Dämpfungswerten erreicht werden. Dies wäre besonders vorteilhaft für Menschen, die empfindlich auf elektromagnetische Felder reagieren oder die Strahlenbelastung in ihrem Wohnraum so gering wie möglich halten möchten.

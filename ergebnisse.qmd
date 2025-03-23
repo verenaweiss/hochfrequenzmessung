@@ -13,90 +13,64 @@ format:
 
 ## Auswertung
 
-Mit dem Programm RStudio wurden die Daten aus den Messungen aus Excel-Tabellen ausgewertet. 
+Mit dem Programm RStudio wurden die Daten aus den Messungen aus Excel-Tabellen ausgewertet. Da pro Messaufbau drei Messungen durchgeführt wurden, musste zuerst der Mittelwert dieser Ergebnisse berechnet werden. Hierzu wurden Excel-Tabellen in RStudio eingelesen, die Daten verarbeitet, der Mittelwert kalkuliert und die Ergebnisse in neuen Excel-Tabellen gespeichert. Für die Berechnung der Dämpfung in Dezibel war die zuvor erstellte Tabelle der Mittelwerte des jeweiligen Wandaufbaus sowie die des Freifelds notwendig. Die vom Generator benötigte Leistung pro Frequenz im Freifeld wurde der Leistung pro Frequenz mit Prüfkörper abgezogen. Letzlich wurde zum Vergleich der verschiedenen Wandaufbauten für jeden Wandtypen ein Liniendiagramm erstellt, das die Mittelwerte mit und ohne Dämmung sowie Fassade darstellt.
 
 ### Daten der Messungen 
 
 Bei den Messungen wurden folgende Werte erhoben:
- markdown
 <br>
 <ul>
   <li>**Frequenz in MHz**</li>
   <li>**Generator Level/V in dBm**</li>
-  <li>**Transducer Level/V in W**</li>
   <li>**Immunity Level/V in V/m**</li>
 </ul>
+Der Wert „Generator Level“ beschreibt die Leistung, die vom Signalgenerator pro Frequenzschritt ausging. In den Tabellen wird dieser Wert als „Generator Level/V“ bezeichnet, wobei das /V für eine vertikale Polarisation steht. „Immunity Level/V“ ist die gemessene elektrische Feldstärke an der Feldsonde und entspricht immer 1 V/m.
 
-```{r}
-#
-# Pakete laden
-library(readxl)
-library(writexl)
-library(tidyverse)
+## Ergebnisvergleich
 
-# Excel-Dateien einlesen
-tabelle1 <- read_excel("./Messungen/170Holz_20240724_01.xls")
-tabelle2 <- read_excel("./Messungen/170Holz_20240724_02.xls")
-tabelle3 <- read_excel("./Messungen/170Holz_20240724_03.xls")
+Die x-Achse der erstellten Diagramme zeigt jeweils die Frequenz in Megahertz. Die y-Achse beschreibt die Dämpfung in Dezibel (dB).
 
+<div class="image-with-caption">
+  <figure>
+    <img src="img/17.png" alt="Beschreibung des Bildes">
+    <figcaption>H100- W17 Außenwand</figcaption>
+  </figure>
+</div>
+Die H100-W17 ist die dünnste untersuchte Wand dieser Diplomarbeit. Das Diagramm zeigt eine steigende Abschirmung mit zunehmender Frequenz. Der mit Holzfaserdämmung verstärkte Prüfkörper (grau) erreicht im Bereich 0–2 GHz maximal 7,5 dB, bei 2–3 GHz bis zu 15 dB. Ab 3 GHz steigt die Dämpfung stetig an und erreicht im 5–6-GHz-Bereich 20 dB (99 %). Der ungedämmte Prüfkörper liegt darunter und erzielt dort maximal 16 dB (97,49 %).
 
+<div class="image-with-caption">
+  <figure>
+    <img src="img/25.png" alt="Beschreibung des Bildes">
+    <figcaption>H100- W25 Außenwand</figcaption>
+  </figure>
+</div>
 
-# Daten zusammenführen (tidyverse Methode)
-werte <- bind_cols(
-  tabelle1 %>% select(Frequency, `Generator Level/V`),
-  tabelle2 %>% select(`Generator Level/V`),
-  tabelle3 %>% select(`Generator Level/V`)
-)
+Bei der H100-W25-Außenwand zeigen die Kurven ein gegensätzliches Verhalten. Bis 3 GHz verlaufen sie ähnlich, danach steigt die Dämpfung der gedämmten Wand, während die der ungedämmten fällt. Zwischen 4 und 5 GHz erreicht die ungedämmte Wand 18 dB, während die gedämmte zwischen 5 und 10 dB schwankt. An der 5-GHz-Grenze steigt sie auf 24 dB (99,6 %). Bei 6 GHz schneiden sich die Kurven und dämpfen jeweils 17 dB (98 %).
 
-# Spaltennamen anpassen
-colnames(werte) <- c("Frequency", "Tabelle1", "Tabelle2", "Tabelle3")
+<div class="image-with-caption">
+  <figure>
+    <img src="img/306.png" alt="Beschreibung des Bildes">
+    <figcaption>H100- W30 Außenwand</figcaption>
+  </figure>
+</div>
+Die H100-W30 dämpfte am stärksten. Zwischen 0 und 3 GHz schwankt die Dämpfung zwischen 0 und 16 dB, ohne große Unterschiede zwischen den Prüfkörpern. Ab 3 GHz steigt die Dämpfung der gedämmten Wand deutlich und erreicht zwischen 3 und 5 GHz bis zu 25 dB, während die ungedämmte Wand maximal 18 dB erzielt. Die Höchstdämpfung beträgt 27 dB (99,8 %), während die ungedämmte Wand 23 dB erreicht.
 
-# Sicherstellen, dass die "Frequency" Spalte numerisch ist
-werte$Frequency <- as.numeric(werte$Frequency)
+<div class="image-with-caption">
+  <figure>
+    <img src="img/ohnedämmung.png" alt="Beschreibung des Bildes">
+    <figcaption>Außenwände ohne Holzfaserdämmung im Vergleich</figcaption>
+  </figure>
+</div>
+Die Abbildung oben vergleicht die ungedämmten Wände, wobei die Wandstärke die Dämpfung beeinflusst. Die H100-W17 erreicht maximal 15 dB (96,84 %), die H100-W25 im 4G-Bereich 17 dB (98 %). Dies bleibt jedoch nur kurz der Höchstwert, da die H100-W30 insgesamt stärker dämpft und zwischen 5 und 6 GHz über 23 dB (99,49 %) erreicht.
 
-# Alle "Generator Level/V" Spalten in numerische Werte umwandeln
-werte$Tabelle1 <- as.numeric(werte$Tabelle1)
-werte$Tabelle2 <- as.numeric(werte$Tabelle2)
-werte$Tabelle3 <- as.numeric(werte$Tabelle3)
+<div class="image-with-caption">
+  <figure>
+    <img src="img/midämmung.png" alt="Beschreibung des Bildes">
+    <figcaption>Außenwände mit Holzfaserdämmung</figcaption>
+  </figure>
+</div>
+Diese Abbildung zeigt die drei gedämmten Wände mit Fassadenelement und damit eine realistische Einbausituation. Die 17-cm-Wand dämpft bis 5 GHz stärker als die ungedämmte und erreicht maximal 20 dB, 4 dB mehr als ohne Dämmung. Die H100-W25 steigt ab 5 GHz um 8 dB über die ungedämmte Wand. Die H100-W30 dämpft am besten, mit einem Spitzenwert von 28 dB gegenüber 25 dB der ungedämmten 30,6-cm-Wand. Ab 3 GHz steigt ihre Dämpfung stark an und liegt im 3–4-GHz-Bereich zwischen 15 und 25 dB, während die H100-W17 und H100-W25 nur 5–15 dB erreichen.
 
-# Überprüfen der Daten nach dem Laden
-#head(werte)
-
-# Fehlende Werte (NA) durch den Mittelwert der jeweiligen Spalte ersetzen
-werte <- werte %>%
-  mutate(
-    Tabelle1 = ifelse(is.na(Tabelle1), mean(Tabelle1, na.rm = TRUE), Tabelle1),
-    Tabelle2 = ifelse(is.na(Tabelle2), mean(Tabelle2, na.rm = TRUE), Tabelle2),
-    Tabelle3 = ifelse(is.na(Tabelle3), mean(Tabelle3, na.rm = TRUE), Tabelle3)
-  )
-
-# Berechnung des Mittelwerts pro Zeile
-werte <- werte %>%
-  mutate(Mittelwert = rowMeans(select(werte, Tabelle1, Tabelle2, Tabelle3), na.rm = TRUE))
-
-# Überprüfen, ob die Spalte "Mittelwert" erfolgreich hinzugefügt wurde
-#head(werte)
-
-# Falls es NA-Werte in der Mittelwert-Spalte gibt, beheben
-werte$Mittelwert <- ifelse(is.na(werte$Mittelwert), 0, werte$Mittelwert)
-
-# Diagramm erstellen
-ggplot(werte, aes(x = Frequency, y = Mittelwert)) +  # x = Frequency, y = Mittelwert
-  geom_line(color = "blue") +  # Liniendiagramm
-  labs(
-    title = "Mittelwerte 17 cm Holz100",  # Titel des Diagramms
-    x = "Frequenz (Hz)",  # x-Achse: Frequency
-    y = "Mittelwert (Generator Level/V)"  # y-Achse: Mittelwert
-  ) +
-  theme_minimal()  # Minimalistisches Design
-
-
-```
-
-
-![Mittelwerte ...](./Analyse/170Holz/170HolzGrafik.png){.lightbox #fig-1} 
-
-Wichtig ist eine Leerzeile nach dem Bild sonst kommt das Figure 1 nicht daher. Das sehen sie in @fig-1.
 
 
 
