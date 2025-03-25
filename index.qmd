@@ -13,7 +13,7 @@ about:
 
 <div id="me">
   <p>
-    Herzlich Willkommen zur Website unseres Diplomarbeitsprojektes  
+    Herzlich Willkommen auf der Website von unserem Diplomarbeitsprojekt  
     **"Messungen zur Abschirmung von hochfrequenter elektromagnetischer Strahlung im Massivholzbau"**.
     <br>
     Wir sind **Verena Weiß (links)** und **Anna Kronaus (rechts)**.  

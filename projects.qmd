@@ -9,11 +9,8 @@ format:
 
 
 ## Ausgangslage
-Es sind noch keine Messungen von 5G Abschirmung im Massivholzbau vorhanden, jedoch wurden Forschungen bezüglich niederfrequenterer Strahlungen - wie zum Beispiel durch die **Universität der Bundeswehr für Hochfrequenz- und Mikrowellentechnik** - bereits durchgeführt. 
+Es sind noch keine Messungen von 5G Abschirmung im Massivholzbau vorhanden, jedoch wurden Forschungen bezüglich niederfrequenterer Strahlungen - wie zum Beispiel durch die **Universität der Bundeswehr München** - bereits durchgeführt. 
 
-<a href="https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=5d4a37666e&attid=0.1&permmsgid=msg-f:1785718375880714712&th=18c82566d741e9d8&view=att&disp=inline&realattid=18c8256183619a45306&zw&saddbat=ANGjdJ8v6tRHuJTHc7GcFo_VaQnSQoUc3pDi7JuwO-VZOYOTr_aF87TDH6cPBAJLobg8tkO2FTv_075txWUeNUgenME9b0vkCq_70aZr9mU-1TV5BgRNnutrCyZfxFXcms7k5FbRSk2SmIfVEYJ0RvzeAX3AM5a8AlQ3eJnleRyGR75ZCkT9yQxQDRrta04I3S2QXpFr3W2EOfBmsEd5vyt87ECiAPCwBISj3XIolHdb9TnGrXG1OKAxmqnHL4euwR8nCLmm3ZVkaJmBxRuj7rheJiFtdHCFKbFhP_bW2aI0PTi5s93wEkHiBQhv5qpy9X46i4Gh3U0ZiUjBEtOP4scai-Wgz9wbHWx2onmrxtvXb93IOqO4K6YsLyEoto20cP2xF-mFXgI6FawKblP063Z46CIQWmYIPC3nAQZ0yPTzYi4peTO4Te68mBzivORvejfWp9lsqtnvNJ8itHEcivOaxNMySNld2JhFYB9bjW-MagSkUqmF0_armKYHKtReFdtGNlm_uapELjOu2Fvt6s-JAXOcC_798rK3nxzLNv3MV0ZVTxMdvNKmAWDcJl4OI_V-HuVY7rlCVdoi8Lng4ch9lFoBKjBdR8oVhmfJr8B25jHJMn-5EHAytUonTgH2VHh2SCxY7dT9HoEPoSXHqtXxeDy5fuZ40K6BgDmJ0PIbSzZ1ICJ8SlSNOKLvnpq23aLS1oE52KcaWK7c7DsQo41t9K9bYXNLtjv6E7-cZkDVly1Gm9EdJ6edpJhwiVmEtcpNuIcRJgJU6Jd73Tkd5zMxVffzytX0Wl2mzcLtDfLtX7m6j36lJfYKh8XY9vmRmRg6XnWI01jI790_kdP8pgvuK7fbv4Af5L9NRTXYLafvv5ZTQB9wilnEj_c2eKt02n4wV-IkYC_gxTX_IKPqLbTwXQNkepnIxuntpgZVbcDsDIG_JmrcWts1rNinPm05AB9eAOLsYBEZfd_wYcErK3I31C726XLrUWtIq__wBvjpTuRmWAF2v7t1WTWA0935IdxXE1lB-ns_DXJ2xsJh" class="custom-link">Universität der Bundeswehr München</a>
-
-Die Ergebnisse zeigen, dass je höher die Frequenz ist, desto besser wird sie von Massivholzwänden abgeschirmt. Daher wird von einer noch besseren Abschirmung der 5G-Strahlung ausgegangen.  
 
 ## Ziel
 Wir haben dazu folgende Hypothese aufgestellt:
