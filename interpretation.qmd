@@ -15,6 +15,7 @@ format:
 
 Wie bei den Ergebnissen bereits erwähnt, ist ein deutlicher Unterschied der Abschirmung zwischen der 17 cm dicken Holz100-Wand mit und ohne Dämmung erkennbar. Vor allem im Bereich von 4 bis 6 GHz, also bei höheren Frequenzen, trägt die Dämmung einen großen Beitrag zur Dämpfung bei. In diesem Intervall kommt es zu Differenzen zwischen den Wandaufbauten von bis zu 10 dB. Grund dafür ist die im Verhältnis zur Stärke des gesamten Wandaufbaus sehr dicke Dämmung von 12 cm. Diese hat bezogen auf die Gesamtdicke von 29 cm einen Anteil von ca. 40 %.
 <br>
+<br>
 Um herauszufinden, ob die Holzfaserdämmplatte bessere Dämpfungseigenschaften als Holz100 aufweist, kann die 17 cm dicke Wand mit Dämmung mit der 30,6 cm dicken Wand ohne Dämmplatte verglichen werden, da diese Wandaufbauten ungefähr die gleiche Dicke haben. 
 <div class="image-with-caption">
   <figure>
